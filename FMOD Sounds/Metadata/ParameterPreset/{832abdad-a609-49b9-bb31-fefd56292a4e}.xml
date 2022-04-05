@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{832abdad-a609-49b9-bb31-fefd56292a4e}">
+		<property name="name">
+			<value>BosworthClicksVolume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{debce76f-efe3-4a24-bf17-4e2c64e8b070}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{debce76f-efe3-4a24-bf17-4e2c64e8b070}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

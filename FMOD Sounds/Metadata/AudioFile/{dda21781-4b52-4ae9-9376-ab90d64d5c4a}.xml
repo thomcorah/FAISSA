@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{dda21781-4b52-4ae9-9376-ab90d64d5c4a}">
+		<property name="assetPath">
+			<value>Yellowstone/wave.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>7.198185941043084</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d428884e-7566-4ff7-b880-05533bb38ea0}</destination>
+		</relationship>
+	</object>
+</objects>

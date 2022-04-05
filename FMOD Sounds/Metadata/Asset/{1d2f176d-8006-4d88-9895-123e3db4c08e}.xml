@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{1d2f176d-8006-4d88-9895-123e3db4c08e}">
+		<property name="assetPath">
+			<value>Commentary/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d428884e-7566-4ff7-b880-05533bb38ea0}</destination>
+		</relationship>
+	</object>
+</objects>

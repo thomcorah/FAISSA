@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{acaa5616-39d1-4fcf-8b30-8e88fad9572d}">
+		<property name="name">
+			<value>DuckMusic</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{dccc9d8d-1091-42bb-8890-35ff7b40288f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{dccc9d8d-1091-42bb-8890-35ff7b40288f}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>98</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{7b0614ad-939b-478b-9b8b-e9a0b923c33c}">
+		<property name="assetPath">
+			<value>Yellowstone/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d428884e-7566-4ff7-b880-05533bb38ea0}</destination>
+		</relationship>
+	</object>
+</objects>

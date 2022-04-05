@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{0ddc5c7d-4b86-41cd-a0dd-355721ab5759}">
+		<property name="assetPath">
+			<value>TheGirl/RailwayStationMoreArtist.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.5279365079365079</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d428884e-7566-4ff7-b880-05533bb38ea0}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{38873d91-fec1-40cf-9f38-580c45cbf92f}">
+		<property name="name">
+			<value>Mode</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{25553d8c-1503-4a05-9071-15c379f92549}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{25553d8c-1503-4a05-9071-15c379f92549}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Middle</value>
+			<value>Focussed</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{4c949980-b094-4b0a-b50c-c2a0f280549d}">
+		<property name="name">
+			<value>WollastonElizabeth</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9f4f4dd1-9ef8-46a3-b87b-c5e158dfd19a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9f4f4dd1-9ef8-46a3-b87b-c5e158dfd19a}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>100</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

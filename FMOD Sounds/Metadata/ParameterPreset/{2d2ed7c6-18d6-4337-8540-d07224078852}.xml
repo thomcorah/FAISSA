@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{2d2ed7c6-18d6-4337-8540-d07224078852}">
+		<property name="name">
+			<value>WaterfallDistance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ac4ccf49-5d06-46f6-acf3-12aaebcfd252}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ac4ccf49-5d06-46f6-acf3-12aaebcfd252}">
+		<property name="maximum">
+			<value>70</value>
+		</property>
+		<property name="initialValue">
+			<value>6</value>
+		</property>
+	</object>
+</objects>

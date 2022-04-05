@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7116553554443792598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7116553554443792596}
+  - component: {fileID: 7116553554443792599}
+  m_Layer: 0
+  m_Name: WearableControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7116553554443792596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7116553554443792598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7116553554443792599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7116553554443792598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32748cd041f66984b90a669fa21f3281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _updateMode: 0
+  _activeAppIntentProfile: {fileID: 0}
+  _debugProvider:
+    _debugLogging: 1
+    _name: Debug Device
+    _firmwareVersion: 0.0.0
+    _grantedPermissionsFlags: -1
+    _enabledServicesFlags: -1
+    _grantPermission: 1
+    _boseArEnabled: 1
+    _firmwareUpdateAvailable: 0
+    _acceptSecurePairing: 1
+    _rssi: 0
+    _availableSensors: -1
+    _availableGestures: -1
+    _productId: 0
+    _variantId: 0
+    _uid: 00000000-0000-0000-0000-000000000000
+    _simulatedDelayTime: 0.5
+    _simulatedMovementMode: 2
+    _eulerSpinRate: {x: 0, y: 0, z: 0}
+    _axisAngleSpinRate: {x: 0, y: 1, z: 0, w: 0}
+    _rotationType: 0
+    _dynamicDeviceInfo:
+      deviceStatus:
+        _value: 0
+      transmissionPeriod: -1
+      activeNoiseReductionMode: 0
+      availableActiveNoiseReductionModes: 11
+      controllableNoiseCancellationLevel: 0
+      controllableNoiseCancellationEnabled: 1
+      totalControllableNoiseCancellationLevels: 11
+    _sensorConfigurationResult: 1
+    _gestureConfigurationResult: 1
+  _bluetoothProvider:
+    _debugLogging: 0
+  _usbProvider:
+    _debugLogging: 0
+  _editorDefaultProvider: 0
+  _runtimeDefaultProvider: 1
+  _finalWearableDeviceConfig:
+    accelerometer:
+      isEnabled: 0
+    gyroscope:
+      isEnabled: 0
+    rotationNineDof:
+      isEnabled: 0
+    rotationSixDof:
+      isEnabled: 0
+    doubleTapGesture:
+      isEnabled: 0
+    headNodGesture:
+      isEnabled: 0
+    headShakeGesture:
+      isEnabled: 0
+    touchAndHoldGesture:
+      isEnabled: 0
+    inputGesture:
+      isEnabled: 0
+    affirmativeGesture:
+      isEnabled: 0
+    negativeGesture:
+      isEnabled: 0
+    updateInterval: 2
+  _overrideDeviceConfig:
+    accelerometer:
+      isEnabled: 0
+    gyroscope:
+      isEnabled: 0
+    rotationNineDof:
+      isEnabled: 0
+    rotationSixDof:
+      isEnabled: 0
+    doubleTapGesture:
+      isEnabled: 0
+    headNodGesture:
+      isEnabled: 0
+    headShakeGesture:
+      isEnabled: 0
+    touchAndHoldGesture:
+      isEnabled: 0
+    inputGesture:
+      isEnabled: 0
+    affirmativeGesture:
+      isEnabled: 0
+    negativeGesture:
+      isEnabled: 0
+    updateInterval: 2
