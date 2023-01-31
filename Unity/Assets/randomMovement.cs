@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿/**
+ *  \class randomMovement
+ *  randomMovement was the beginning of an experiment to add a small degree of random
+ *  movement to a GameObject in order to increase localisation and externalisation of 
+ *  the sound attached to it. 
+ *
+ *  It hasn't been implemented in the current version of the system, but remains here
+ *  for future reference.
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

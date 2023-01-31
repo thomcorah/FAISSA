@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{2988a2d4-4be2-47fe-9a07-a2470da61a76}">
+		<property name="name">
+			<value>thunderFadeOut</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f38d28dc-ae20-4bea-bff1-adc917ceaf87}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f38d28dc-ae20-4bea-bff1-adc917ceaf87}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

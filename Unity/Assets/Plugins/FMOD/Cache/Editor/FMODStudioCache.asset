@@ -43,6 +43,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2554
+--- !u!114 &-9110346283772292233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wollaston/LowDroneClean
+  m_EditorClassIdentifier: 
+  Path: event:/Wollaston/LowDroneClean
+  guid: 6a88fc29e0566b4fad0a0d3dbe99fe2c
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15000
 --- !u!114 &-9073351262671994411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,7 +88,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 51049
+  Length: 53048
 --- !u!114 &-9067654083913860460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,6 +220,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2163
+--- !u!114 &-8922024956550477825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8877829198700336408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,6 +306,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 35433
+--- !u!114 &-8818841840484268257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/baldEagle
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/baldEagle
+  guid: 838386b973e91048839f54cf6b980703
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6760
 --- !u!114 &-8807772763160277602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +352,69 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &-8791169049214866725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8755374802203465357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-8686611031768811151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaryGrant/flutes
+  m_EditorClassIdentifier: 
+  Path: event:/MaryGrant/flutes
+  guid: c63e63802a1c0d44953221925797fab9
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-8646894743347145355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,6 +553,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &-8523670786221184270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8467706513780549282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,8 +966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Wollaston/Cathryn
   guid: 0d396504aed7504c968faba978f34557
-  Banks:
-  - {fileID: 1005931248875679061}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -888,6 +1036,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-7843224388323843651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wollaston/ARTNoise
+  m_EditorClassIdentifier: 
+  Path: event:/Wollaston/ARTNoise
+  guid: 0aed02bc207734499c982505cabcad68
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15000
 --- !u!114 &-7797586008593388043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1247,6 +1418,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2554
+--- !u!114 &-7377017152023533953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/Thunder-L
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/Thunder-L
+  guid: d41a696fabbabf43a988071accd3fafa
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 210000
 --- !u!114 &-7370995993546365304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1270,6 +1464,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 76530
+--- !u!114 &-7286869266482508650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-7282464220180927434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,7 +1593,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 38477
+  Length: 47072
 --- !u!114 &-7169713522159174163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1403,6 +1617,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 199000
+--- !u!114 &-7142934751453819853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/Crowd2R
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/Crowd2R
+  guid: 743495cee7fa2b40a778f90febd1d963
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 395844
 --- !u!114 &-7090839111527157413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2143,6 +2380,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2834
+--- !u!114 &-6328379932564306284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-6280385143489016217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-6270236715769314509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,6 +2480,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-6218975443007278825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/ChildrenR
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/ChildrenR
+  guid: 25a81c428681604c83986a5783ceaa93
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 366041
 --- !u!114 &-6164738383713487442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2271,6 +2571,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 40375
+--- !u!114 &-6130671731469162613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6127000929111682213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2294,6 +2614,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2110
+--- !u!114 &-6121545172314571780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-6106692375335668999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,11 +3044,11 @@ MonoBehaviour:
   Path: ../FMOD Sounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637781098220000000
+  lastModified: 638098125440000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 5972
+    Value: 7714
   Exists: 1
 --- !u!114 &-5829508729284467332
 MonoBehaviour:
@@ -2756,6 +3096,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2527
+--- !u!114 &-5800898452404838177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/Drum
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/Drum
+  guid: 1fb41146c9a74a48bdb58f3eccbaccdc
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 97080
 --- !u!114 &-5786005133793273915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2977,6 +3340,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 38453
+--- !u!114 &-5718185277391958947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-5562641067968486946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3461,6 +3844,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6500
+--- !u!114 &-5062902583453944678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/thunderFadeOut
+  m_EditorClassIdentifier: 
+  Name: thunderFadeOut
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 3226431542
+    data2: 3659876815
+  Exists: 1
 --- !u!114 &-5025241364507363662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3526,7 +3929,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -968631762670087148}
+  - {fileID: 7268312856798051583}
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
@@ -3684,6 +4087,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4863266092842574934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-4853636224687623066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3706,7 +4129,27 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 199000
+  Length: 15000
+--- !u!114 &-4775611932931469868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4775148780062564191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3927,6 +4370,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 49296
+--- !u!114 &-4626247445462886741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4621619562800621275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4235,8 +4698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Wollaston/Nicholas
   guid: f964168a65f6534bac7972714e4d9977
-  Banks:
-  - {fileID: 1005931248875679061}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -4488,6 +4950,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-4108557902816286795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4073644391972813198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4866,7 +5348,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 199000
+  Length: 15000
 --- !u!114 &-3765690923795902564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5065,6 +5547,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 22917
+--- !u!114 &-3511801380600745457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestPulse
+  m_EditorClassIdentifier: 
+  Path: event:/TestPulse
+  guid: 9b7fa4cf9cdf1747947cc7f2f3e4bef6
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8091
 --- !u!114 &-3506492608993003719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5443,6 +5948,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 47819
+--- !u!114 &-2804271997889647402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/fritzFlute
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/fritzFlute
+  guid: 8395933ac900b24ea1e1e00556ed659a
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7687
 --- !u!114 &-2666016851589157187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5683,6 +6211,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 3688
+  Exists: 1
+--- !u!114 &-2306269869841697164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WollastonAllSounds
+  m_EditorClassIdentifier: 
+  Name: WollastonAllSounds
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1720410281
+    data2: 3792138159
   Exists: 1
 --- !u!114 &-2292496478003637908
 MonoBehaviour:
@@ -6016,6 +6564,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 4050
+--- !u!114 &-1812214039479684635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-1747656008999554552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6169,6 +6737,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &-1356041934799622811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MaryCrossfade
+  m_EditorClassIdentifier: 
+  Name: MaryCrossfade
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 4065031890
+    data2: 4194785764
+  Exists: 1
 --- !u!114 &-1355529616688972872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6321,6 +6909,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1201910554005813614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1160626202874182275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6364,6 +6972,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 7175
+--- !u!114 &-1116575868802949059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1062148317050125463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6410,6 +7038,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 25629
+--- !u!114 &-984931755866891362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 8
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 8
+  guid: 226dd74a6052c540945c6206138e2f61
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1512
 --- !u!114 &-968631762670087148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6476,6 +7127,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5878
+--- !u!114 &-904844810658090261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/Thunder-R
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/Thunder-R
+  guid: a033629070f2fc4ea3e724b241a3b754
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 210000
 --- !u!114 &-821878834672999651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6564,6 +7238,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &-608937564967059718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wollaston/Clocks
+  m_EditorClassIdentifier: 
+  Path: event:/Wollaston/Clocks
+  guid: af4f113f693c1045a079935e0be29ecf
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15000
 --- !u!114 &-577018525360168734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6804,6 +7501,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 20630
+--- !u!114 &-165174835059073097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-136154506257283029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6958,7 +7675,6 @@ MonoBehaviour:
   - {fileID: -5025241364507363662}
   - {fileID: -5961941804949438013}
   - {fileID: -1002389872524276204}
-  - {fileID: -7974266568632599926}
   - {fileID: -4281410701286328787}
   - {fileID: 5551671761962486435}
   - {fileID: 5716226631471574507}
@@ -7005,7 +7721,6 @@ MonoBehaviour:
   - {fileID: 2286357345652839834}
   - {fileID: -4476509500251211979}
   - {fileID: -7777970640805424010}
-  - {fileID: 8302876329119753833}
   - {fileID: 5790643998625887967}
   - {fileID: 7607891701332930528}
   - {fileID: -5754338431064426522}
@@ -7027,7 +7742,6 @@ MonoBehaviour:
   - {fileID: 7365433716042674300}
   - {fileID: -3568316096014171625}
   - {fileID: -7018538741064681100}
-  - {fileID: -2352873672125109011}
   - {fileID: -4563799604607446070}
   - {fileID: -813705657944684626}
   - {fileID: -4016707739288602787}
@@ -7037,7 +7751,6 @@ MonoBehaviour:
   - {fileID: 3454113506060615194}
   - {fileID: -4750946746081004872}
   - {fileID: 1198504851692836518}
-  - {fileID: -4336719317076197737}
   - {fileID: 1879912404633394166}
   - {fileID: -8073781264867345675}
   - {fileID: -5978701664521629851}
@@ -7063,6 +7776,44 @@ MonoBehaviour:
   - {fileID: -3587559369212581143}
   - {fileID: 4440243617358792887}
   - {fileID: 1665755829562229229}
+  - {fileID: -3511801380600745457}
+  - {fileID: -7843224388323843651}
+  - {fileID: 8994950005709792396}
+  - {fileID: 3484492943401369404}
+  - {fileID: -9110346283772292233}
+  - {fileID: 7672123650795497570}
+  - {fileID: -608937564967059718}
+  - {fileID: 4680605535193132513}
+  - {fileID: 4104247739604969717}
+  - {fileID: -2804271997889647402}
+  - {fileID: 6531929920911925329}
+  - {fileID: 7167799167202106046}
+  - {fileID: 2905592896512577590}
+  - {fileID: -8818841840484268257}
+  - {fileID: 3055746169164746453}
+  - {fileID: -904844810658090261}
+  - {fileID: -7377017152023533953}
+  - {fileID: -6218975443007278825}
+  - {fileID: 8265660722347481308}
+  - {fileID: -5800898452404838177}
+  - {fileID: 2176853143902215772}
+  - {fileID: 9137338689080679769}
+  - {fileID: 8177758112467570693}
+  - {fileID: -7142934751453819853}
+  - {fileID: 2411277433459716044}
+  - {fileID: 3389176457645324193}
+  - {fileID: 6820710222656837801}
+  - {fileID: -984931755866891362}
+  - {fileID: 8013764909989063137}
+  - {fileID: 3626026876950327723}
+  - {fileID: 2490314350422693209}
+  - {fileID: 7653270007416423674}
+  - {fileID: 5680993981891271777}
+  - {fileID: 2012126131889199074}
+  - {fileID: 590334268813999562}
+  - {fileID: 2418924273738206854}
+  - {fileID: 3901846181620320425}
+  - {fileID: -8686611031768811151}
   EditorParameters:
   - {fileID: -5947525437917812553}
   - {fileID: 6505018068864280378}
@@ -7072,11 +7823,18 @@ MonoBehaviour:
   - {fileID: 2359286665512367986}
   - {fileID: 4166077505944128494}
   - {fileID: -8037830455756666422}
+  - {fileID: 3649064540533304374}
+  - {fileID: -2306269869841697164}
+  - {fileID: -5062902583453944678}
+  - {fileID: 7951873282638990182}
+  - {fileID: 9018852393751873205}
+  - {fileID: -1356041934799622811}
+  - {fileID: 2052043807131153610}
   MasterBanks:
   - {fileID: 1005931248875679061}
   StringsBanks:
   - {fileID: -5854581341066524348}
-  stringsBankWriteTime: 637781098220000000
+  stringsBankWriteTime: 638098125440000000
   cacheVersion: 6
 --- !u!114 &1096835550769709
 MonoBehaviour:
@@ -7259,6 +8017,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5067
+--- !u!114 &221243211779619741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &276079423235513566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7351,6 +8129,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &409142811753265893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &412578995642460515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7420,6 +8218,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 117319
+--- !u!114 &590334268813999562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 10
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 10
+  guid: c6d269ff8f1d1a48bba6663918b755e5
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1700
 --- !u!114 &621389549925344050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7614,7 +8435,7 @@ MonoBehaviour:
   Path: ../FMOD Sounds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637781098220000000
+  lastModified: 638098125440000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -7978,6 +8799,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 60990
+--- !u!114 &1510738416191130632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &1665755829562229229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8185,6 +9026,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 44571
+--- !u!114 &1967248444840126783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1982808131549513942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8208,6 +9069,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2163
+--- !u!114 &2012126131889199074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 5
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 5
+  guid: c00edb221a33ed4083fb9ad2f6cf3008
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1685
 --- !u!114 &2025423903377014105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8253,6 +9137,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 65050
+--- !u!114 &2052043807131153610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FadeMary
+  m_EditorClassIdentifier: 
+  Name: FadeMary
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1834310489
+    data2: 1064887495
+  Exists: 1
+--- !u!114 &2071268120505690079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &2096824137177146871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8315,6 +9239,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2176853143902215772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/MarchingL
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/MarchingL
+  guid: 274ebcc1149ed642a9ff021b189936d3
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 175410
 --- !u!114 &2243590037345054886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8417,9 +9364,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WollastonAnne
+  m_Name: parameter:/WollastonWilliam
   m_EditorClassIdentifier: 
-  Name: WollastonAnne
+  Name: WollastonWilliam
   Min: 0
   Max: 100
   Default: 0
@@ -8427,6 +9374,52 @@ MonoBehaviour:
     data1: 257851605
     data2: 3331033355
   Exists: 1
+--- !u!114 &2411277433459716044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/Crowd1R
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/Crowd1R
+  guid: a32e3fbc4a132443a74468f79877bed6
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 193986
+--- !u!114 &2418924273738206854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 9
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 9
+  guid: d540ba1e58710344ba24bc4f688c8cb8
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1651
 --- !u!114 &2448560344748777878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8564,6 +9557,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &2490314350422693209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 2
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 2
+  guid: 95b9dd20785f9a44a3f0e7bde855a17b
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1600
 --- !u!114 &2495654153819927554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8655,6 +9671,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2173
+--- !u!114 &2646258305482335427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2663250808294929524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8812,6 +9848,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2339
+--- !u!114 &2905592896512577590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/bassFlute
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/bassFlute
+  guid: eb99496cf8c5ae4dbcf1e8ab0ad01e28
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7875
 --- !u!114 &2979760551272760705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8881,6 +9940,69 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 199000
+--- !u!114 &3038470790501767276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &3055746169164746453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/bullElk
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/bullElk
+  guid: 83ccc25a6ef49d459dfc392bfe4516cd
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18000
+--- !u!114 &3065138804765077149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &3095263461894526105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8988,6 +10110,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3389176457645324193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/Crowd2L
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/Crowd2L
+  guid: cdba3b3a9ab8bb47a144394730d2ef5f
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 395844
 --- !u!114 &3415045451644762586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9103,6 +10248,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 49296
+--- !u!114 &3484492943401369404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wollaston/Recording
+  m_EditorClassIdentifier: 
+  Path: event:/Wollaston/Recording
+  guid: 6144094f6ba0a644a7e0aab7f90595d1
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15000
 --- !u!114 &3503270130057918923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9171,6 +10339,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5278
+--- !u!114 &3626026876950327723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 4
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 4
+  guid: 8f77193b4ce07f42b2dc939efbfd2b5a
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1881
 --- !u!114 &3634652810915570075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9191,6 +10382,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3649064540533304374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WollastonOngoing
+  m_EditorClassIdentifier: 
+  Name: WollastonOngoing
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 4108409424
+    data2: 2547732553
+  Exists: 1
 --- !u!114 &3665328246880890069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9484,6 +10695,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 18786
+--- !u!114 &3901846181620320425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/cellos
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/cellos
+  guid: 6ec979dc02cfe4449083d93cfdc6098e
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5340
 --- !u!114 &3910252788487052334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9529,6 +10763,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2078
+--- !u!114 &3935046643167609595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &3937033345546980273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9658,6 +10912,29 @@ MonoBehaviour:
     data1: 1804408945
     data2: 202707738
   Exists: 1
+--- !u!114 &4104247739604969717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/rhodes1
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/rhodes1
+  guid: 10e506afa2f2c04593ebb7b67be7e55b
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18122
 --- !u!114 &4116952152359484772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9860,6 +11137,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 35714
+--- !u!114 &4375662755660770030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &4381033739613730515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9928,7 +11225,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 59346
+  Length: 60627
 --- !u!114 &4434541944141176490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10129,7 +11426,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 199000
+  Length: 15000
 --- !u!114 &4650861938765933021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10199,6 +11496,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 48294
+--- !u!114 &4671161361999887220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &4680605535193132513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/bothRhodes
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/bothRhodes
+  guid: 0d0ae4ebac653b449eccb64eb68134d4
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18122
 --- !u!114 &4704125816175952991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10393,6 +11733,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 38453
+--- !u!114 &4987928305078879923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5006158262835995064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10485,6 +11845,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &5068939175329033726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &5129504349240072754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10508,6 +11888,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 47212
+--- !u!114 &5163081740387424302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &5173635011459294683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10686,6 +12086,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2492
+--- !u!114 &5454749276303032371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5551671761962486435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10795,6 +12215,69 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &5626046223291039909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &5680993981891271777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 6
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 6
+  guid: bf868194356bc24ead861eb6221da0db
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2101
+--- !u!114 &5684644444992379065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5694077418952696969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10860,7 +12343,27 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 58659
+  Length: 62778
+--- !u!114 &5734079350499731081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &5755737634740130622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10905,7 +12408,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 60990
+  Length: 58148
 --- !u!114 &5790643998625887967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11235,6 +12738,29 @@ MonoBehaviour:
     data1: 3416579211
     data2: 1478293501
   Exists: 1
+--- !u!114 &6531929920911925329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/synthBone
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/synthBone
+  guid: c57f0d305d615443869f890c30d424e6
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7687
 --- !u!114 &6581960783889228892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11326,6 +12852,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &6627758088061147100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6657519695369600673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11372,6 +12918,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 117574
+--- !u!114 &6663496168062484099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6674391871508732413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11440,6 +13006,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &6736954266099633628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &6820710222656837801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 3
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 3
+  guid: 1a9e7b974b0c4540adb35b43e2f90dba
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1650
 --- !u!114 &6835195476068817521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11575,6 +13184,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2342
+--- !u!114 &7167799167202106046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/riverRunning
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/riverRunning
+  guid: d2331235f60a764abbd5b12c0ba868c9
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &7202802987503623388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11617,6 +13249,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 35714
+--- !u!114 &7268312856798051583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7331618505299275654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11863,6 +13515,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 40375
+--- !u!114 &7653270007416423674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 1
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 1
+  guid: 9820b0b525c5844cae226251c5985b86
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1040
+--- !u!114 &7672123650795497570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wollaston/LowDroneDirty
+  m_EditorClassIdentifier: 
+  Path: event:/Wollaston/LowDroneDirty
+  guid: 771213440d48f940a405e2cdc700ff6c
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15000
 --- !u!114 &7675024855212494782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12170,6 +13868,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &7951873282638990182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BosworthCelloVolume
+  m_EditorClassIdentifier: 
+  Name: BosworthCelloVolume
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 121358257
+    data2: 2201452937
+  Exists: 1
 --- !u!114 &7973227722792910997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12216,6 +13934,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 4050
+--- !u!114 &8008853521811132376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &8013764909989063137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bosworth/iceFlurry 7
+  m_EditorClassIdentifier: 
+  Path: event:/Bosworth/iceFlurry 7
+  guid: 7c86062142f8a54aa522ed8380fafd63
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2300
 --- !u!114 &8060433537904888460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12308,6 +14069,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 117319
+--- !u!114 &8177758112467570693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/Crowd1L
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/Crowd1L
+  guid: 349413a553e410429f910fbebfb8af69
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 193986
+--- !u!114 &8183596294626023086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8190256809508227564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12419,6 +14223,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &8265660722347481308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/ChildrenL
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/ChildrenL
+  guid: ef836596acc9074898ba82c44f191a43
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 366041
 --- !u!114 &8302876329119753833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12433,8 +14260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Wollaston/Anne
   guid: 977c55b102b3f14bb4a2a66d46013e20
-  Banks:
-  - {fileID: 1005931248875679061}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -12730,6 +14556,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &8962329975152837265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &8962339171148954357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12799,6 +14645,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1888
+--- !u!114 &8994950005709792396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wollaston/Godshall
+  m_EditorClassIdentifier: 
+  Path: event:/Wollaston/Godshall
+  guid: 0d396504aed7504c968faba978f34557
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 15000
+--- !u!114 &9018852393751873205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/railwayCrossFade
+  m_EditorClassIdentifier: 
+  Name: railwayCrossFade
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2250842184
+    data2: 3930240242
+  Exists: 1
 --- !u!114 &9043326606294627242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12955,6 +14844,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3900
+--- !u!114 &9137338689080679769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TheGirl/MarchingR
+  m_EditorClassIdentifier: 
+  Path: event:/TheGirl/MarchingR
+  guid: 8fafa6cb802a5c44a539635daa8ef1be
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 175410
 --- !u!114 &9167953869078213297
 MonoBehaviour:
   m_ObjectHideFlags: 0

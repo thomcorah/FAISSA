@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{a717f2bd-88bd-4574-8287-cabd8411bfea}">
+		<property name="name">
+			<value>WollastonOngoing</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d5736b1c-a705-4ad2-905f-ed1d9b2f1a72}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d5736b1c-a705-4ad2-905f-ed1d9b2f1a72}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

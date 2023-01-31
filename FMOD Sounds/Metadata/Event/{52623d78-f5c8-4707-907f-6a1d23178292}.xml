@@ -208,7 +208,7 @@
 			<value>100</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>-38</value>
 		</property>
 	</object>
 	<object class="Automator" id="{3c2ad073-640e-4f33-b8b7-07bd0e6a5f24}">
@@ -303,7 +303,7 @@
 			<value>Max Distance</value>
 		</property>
 		<property name="value">
-			<value>6</value>
+			<value>4.4000001</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(2.000000,1.000000)(5.000000,5.000000)(10.000000,10.000000)(15.000000,100.000000)(20.000000,1000.000000)(27.000000,10000.000000)}</value>

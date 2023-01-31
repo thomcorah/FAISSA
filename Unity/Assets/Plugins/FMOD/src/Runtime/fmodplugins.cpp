@@ -36,7 +36,7 @@ extern "C" unsigned int FmodUnityNativePluginInit(FMOD_SYSTEM *system)
     */
 
     /* Uncomment this next section to use the Resonance Audio plugin on iOS */
-    /*
+    
     result = FMOD5_System_RegisterDSP(system, FMOD_ResonanceAudioListener_GetDSPDescription(), nullptr);
     if (result != 0)
     {
@@ -52,7 +52,7 @@ extern "C" unsigned int FmodUnityNativePluginInit(FMOD_SYSTEM *system)
     {
       return result;
     }
-    */
+    
 
     return result;
 }

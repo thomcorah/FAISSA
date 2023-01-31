@@ -359,7 +359,7 @@
 			<value>Near-Field Gain</value>
 		</property>
 		<property name="value">
-			<value>1.00001001</value>
+			<value>2.70000005</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,9.000000)}</value>
@@ -397,7 +397,7 @@
 			<value>70</value>
 		</property>
 		<property name="value">
-			<value>17.9791298</value>
+			<value>44.6734009</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{79028309-4055-406f-8f10-be93326b6e82}">
@@ -405,7 +405,7 @@
 			<value>10</value>
 		</property>
 		<property name="value">
-			<value>5.72106361</value>
+			<value>7.20407867</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{47f733de-28f5-49d9-b9bc-f35c2e16cfb0}">
@@ -413,7 +413,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>1.62808359</value>
+			<value>4.96340466</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.0481991954</value>
@@ -424,7 +424,7 @@
 			<value>14.963302752293579</value>
 		</property>
 		<property name="value">
-			<value>7.72106361</value>
+			<value>9.20407867</value>
 		</property>
 	</object>
 </objects>

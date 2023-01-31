@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{974e8c7f-dfc7-4f6d-b50b-3cce36e26dd2}">
+		<property name="name">
+			<value>MaryCrossfade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1ae6d267-0651-4a81-b994-a777e3fac1f9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{32292d20-c8ed-42ae-9a4b-184e9135e48e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{32292d20-c8ed-42ae-9a4b-184e9135e48e}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>61</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
