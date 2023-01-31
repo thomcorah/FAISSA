@@ -3,7 +3,7 @@
 This repository contains the practical aspects of my PhD work - the creation of a system for the production and delivery of an artistic audio augmented reality system for use in public spaces such as galleries.
 
 This example is intended to be used in the Victorian Gallery at the Leicester Museum and Art Gallery, and provides spatialised audio experiences for six selected paintings in the gallery.
-
+ 
 This repository contains three folders:
 
 **FMOD Sounds**  
