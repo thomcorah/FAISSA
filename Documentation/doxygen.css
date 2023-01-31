@@ -2016,3 +2016,7 @@ code {
 	max-width: 940px;
 	margin: 0 auto;
 }
+
+pre code.hljs {
+	padding-top: 0;
+}
