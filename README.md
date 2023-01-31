@@ -55,6 +55,12 @@ When running on an iOS device, you can connect Bose AR Enabled headphones to the
 
 If you are running the application in the Victorian Gallery, you will want location updates from the Indoor Atlas SDK. Before building the application in Unity as above, uncomment the contens of the IndoorAtlasOnLocationChanged(IndoorAtlas.Location location) method in Visitor.cs.
 
+### Runtime Options  
+
+The Visitor GameObject includes a control to adjust the avatar movement speed when run in the editor. Look for 'Movement Speed' in the properties panel when the Visitor GameObject is selected.
+
+The Commentary Controller GameObject properties panel includes options to turn the commentary on or off, as well as toggle that the main gallery introduction and the one-time instructional painting introduction have already been played.
+
 ## The Code
 
 ### Overview
