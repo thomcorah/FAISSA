@@ -4,13 +4,16 @@ This repository contains the practical aspects of my PhD work - the creation of 
 
 This example is intended to be used in the Victorian Gallery at the Leicester Museum and Art Gallery, and provides spatialised audio experiences for six selected paintings in the gallery.
 
-This repository contains two folders:
+This repository contains three folders:
 
 **FMOD Sounds**  
 Contains the full FMOD audio session from which to build the sound bank for Unity.
 
 **Unity**  
 The Unity game environment used to create the virtual sound world for the augmented reality experience.
+
+**Documentation**
+Full documentation of the code written for the Unity session. A brief summary of the main points follows below.
 
 ## Installation
 
