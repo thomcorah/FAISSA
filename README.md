@@ -1,8 +1,8 @@
-# VictorianGalleryNWM
+# SAARPS: System for Audio Augmented Reality in Public Spaces
 
 This repository contains the practical aspects of my PhD work - the creation of a system for the production and delivery of an artistic audio augmented reality system for use in public spaces such as galleries.
 
-This example is intended to be used in the Victorian Gallery at Leicester's New Walk Museum, and provides spatialised audio experiences for six selected paintings in the gallery.
+This example is intended to be used in the Victorian Gallery at the Leicester Museum and Art Gallery, and provides spatialised audio experiences for six selected paintings in the gallery.
 
 This repository contains two folders:
 
@@ -26,7 +26,7 @@ Install the FMOD Unity integration to connect FMOD and Unity. Full details are a
 
 The Victorian Gallery is represented in Unity as a rectangular space. Six paintings spaced around the gallery have been chosen as those to be augmented with spatialised sound and audio commentary. These paintings are each represented by an object in Unity that contains a range of further assets as appropriate. Additionally, each painting object has an attached script that handles a number of painting-specific actions such as the triggering of the soundscape and audio commentary based on the proximity of the visitor.
 
-These scripts are in the _Assets_ folder and are named for the painting to which they belong: _Bosworth.cs_, _MaryGrant.cs_, _RailwayStation.cs_, _TheGirl.cs_, and _Wollaston.cs_.
+These scripts are in the _Assets_ folder and are named for the painting to which they belong: _YellowstoneFalls.cs_, _Bosworth.cs_, _MaryGrant.cs_, _RailwayStation.cs_, _TheGirl.cs_, and _Wollaston.cs_.
 
 The visitor is represented by a cuboid in the game environment. In order for this object to receive location data from the Indoor Atlas indoor positioning system, it is contained within an _IndoorAtlas Session_ object.
 
@@ -231,9 +231,9 @@ if(CommentaryTalking) {
 }
 ```
 
-#### BOSS Gesture Input
+#### BOSE Gesture Input
 
-The _CommentaryController_ registers methods with the BOSS Headphone API to handle affirmative (head nod), negative (head shake), and input (tap and hold on the side of the headphones) gestures.
+The _CommentaryController_ registers methods with the BOSE Headphone API to handle affirmative (head nod), negative (head shake), and input (tap and hold on the side of the headphones) gestures.
 
 ```java
 WearableControl.Instance.AffirmativeGestureDetected += HandleAffirmativeGesture;
@@ -335,6 +335,6 @@ Finally, we attach the FMOD event instance to the audio guide object and play it
   commentaryClipInstance.start();
 ```
 
-This all happens after we've determined which clip to play. This decision is handed through several methods. _StartCommentary()_ is called by the visitor object or a painting object in order to initiate the audio commentary. This method checks a number of aspects of state in order to select the correct clip to start with. This will either be the gallery introduction clip, the general introduction to paintings that includes some instructions on first entering a painting, or a painting-specific introduction to be used when the visitor has already been played the general introduction.
+This all happens after we've determined which clip to play. This decision is handled through several methods. _StartCommentary()_ is called by the visitor object or a painting object in order to initiate the audio commentary. This method checks a number of aspects of state in order to select the correct clip to start with. This will either be the gallery introduction clip, the general introduction to paintings that includes some instructions on first entering a painting, or a painting-specific introduction to be used when the visitor has already been played the general introduction.
 
 The _OnCommentaryComplete()_ method is called whenever a clip has finished and used to progress onto the next audio clip if appropriate. For example, once the painting specific introduction has finished the commentary goes on to ask if the visitor would like to hear more about the artist.
