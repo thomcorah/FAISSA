@@ -1825,7 +1825,7 @@ MonoBehaviour:
   commentaryController: {fileID: 992525439}
   audioGuide: {fileID: 1410429403}
   mouseSensitivity: 1
-  movementSpeed: 10
+  movementSpeed: 20
 --- !u!54 &453579610
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3223,6 +3223,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
         type: 3}
+      propertyPath: _activeAppIntentProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: 68ee09e6fbc7d48c19935f44dc29e38e,
+        type: 2}
+    - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
+        type: 3}
+      propertyPath: _runtimeDefaultProvider
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
+        type: 3}
       propertyPath: _debugProvider._productId
       value: 16420
       objectReference: {fileID: 0}
@@ -3233,8 +3244,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
         type: 3}
+      propertyPath: _debugProvider._simulatedMovementMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
+        type: 3}
+      propertyPath: _debugProvider._firmwareUpdateAvailable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
+        type: 3}
       propertyPath: _debugProvider._dynamicDeviceInfo.deviceStatus._value
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4, type: 3}
@@ -5210,9 +5231,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wearableControl: {fileID: 184700630}
-  GalleryIntroPlayed: 1
-  PaintingIntroPlayed: 1
-  CommentaryOn: 0
+  GalleryIntroPlayed: 0
+  PaintingIntroPlayed: 0
+  CommentaryOn: 1
 --- !u!4 &992525440
 Transform:
   m_ObjectHideFlags: 0

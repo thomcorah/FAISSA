@@ -1375,6 +1375,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 188596
+--- !u!114 &-7543562198746579942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/BaldEagle
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/BaldEagle
+  guid: 838386b973e91048839f54cf6b980703
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6760
 --- !u!114 &-7541679234901241286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,11 +3067,11 @@ MonoBehaviour:
   Path: ../FMOD Sounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638098125440000000
+  lastModified: 638107726410000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 7714
+    Value: 6908
   Exists: 1
 --- !u!114 &-5829508729284467332
 MonoBehaviour:
@@ -3929,7 +3952,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 7268312856798051583}
+  - {fileID: 2144780112779201212}
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
@@ -6363,6 +6386,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 35433
+--- !u!114 &-2102229558427964973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/BullElk
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/BullElk
+  guid: 83ccc25a6ef49d459dfc392bfe4516cd
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18000
 --- !u!114 &-2084634152897639060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7672,7 +7718,6 @@ MonoBehaviour:
   - {fileID: 4508274459655314462}
   - {fileID: 4931931993410088470}
   - {fileID: -8807772763160277602}
-  - {fileID: -5025241364507363662}
   - {fileID: -5961941804949438013}
   - {fileID: -1002389872524276204}
   - {fileID: -4281410701286328787}
@@ -7680,11 +7725,9 @@ MonoBehaviour:
   - {fileID: 5716226631471574507}
   - {fileID: 4629235402392991761}
   - {fileID: 4429607716087777980}
-  - {fileID: -2336977820817950377}
   - {fileID: 6660913246682177865}
   - {fileID: -9119892297114836739}
   - {fileID: -435901977290350866}
-  - {fileID: -8255488194628088773}
   - {fileID: 1786495099285719529}
   - {fileID: -4927376511919019021}
   - {fileID: -3778044585543189128}
@@ -7695,27 +7738,17 @@ MonoBehaviour:
   - {fileID: -6627642217274235360}
   - {fileID: -2125933651733590748}
   - {fileID: 5348095412871208483}
-  - {fileID: -6935388333540904370}
   - {fileID: 1742527470245131547}
   - {fileID: 4658661347776945902}
   - {fileID: 2541972066404468109}
   - {fileID: 8470265194532757265}
-  - {fileID: 2472144628312904139}
-  - {fileID: -5774809666987286518}
-  - {fileID: 7486034887912013279}
-  - {fileID: 4437528415323499108}
   - {fileID: -4948459898815170395}
   - {fileID: -3875955154773235568}
   - {fileID: 8165724507644361226}
   - {fileID: 169300958476015468}
   - {fileID: 8419863255662928942}
-  - {fileID: -3097049735752520323}
-  - {fileID: -4215382145122489352}
   - {fileID: 5783486035890761967}
-  - {fileID: -6376343475417994848}
-  - {fileID: -4249268088263828822}
   - {fileID: -9059954287086225005}
-  - {fileID: -8335101825674408567}
   - {fileID: -4586178815387515730}
   - {fileID: -7198557324715469618}
   - {fileID: 2286357345652839834}
@@ -7744,13 +7777,11 @@ MonoBehaviour:
   - {fileID: -7018538741064681100}
   - {fileID: -4563799604607446070}
   - {fileID: -813705657944684626}
-  - {fileID: -4016707739288602787}
   - {fileID: -9073351262671994411}
   - {fileID: -6758768627012599674}
   - {fileID: 6599544026449596775}
   - {fileID: 3454113506060615194}
   - {fileID: -4750946746081004872}
-  - {fileID: 1198504851692836518}
   - {fileID: 1879912404633394166}
   - {fileID: -8073781264867345675}
   - {fileID: -5978701664521629851}
@@ -7783,14 +7814,6 @@ MonoBehaviour:
   - {fileID: -9110346283772292233}
   - {fileID: 7672123650795497570}
   - {fileID: -608937564967059718}
-  - {fileID: 4680605535193132513}
-  - {fileID: 4104247739604969717}
-  - {fileID: -2804271997889647402}
-  - {fileID: 6531929920911925329}
-  - {fileID: 7167799167202106046}
-  - {fileID: 2905592896512577590}
-  - {fileID: -8818841840484268257}
-  - {fileID: 3055746169164746453}
   - {fileID: -904844810658090261}
   - {fileID: -7377017152023533953}
   - {fileID: -6218975443007278825}
@@ -7814,6 +7837,9 @@ MonoBehaviour:
   - {fileID: 2418924273738206854}
   - {fileID: 3901846181620320425}
   - {fileID: -8686611031768811151}
+  - {fileID: -7543562198746579942}
+  - {fileID: -2102229558427964973}
+  - {fileID: 5575145069004201833}
   EditorParameters:
   - {fileID: -5947525437917812553}
   - {fileID: 6505018068864280378}
@@ -7834,7 +7860,7 @@ MonoBehaviour:
   - {fileID: 1005931248875679061}
   StringsBanks:
   - {fileID: -5854581341066524348}
-  stringsBankWriteTime: 638098125440000000
+  stringsBankWriteTime: 638107726410000000
   cacheVersion: 6
 --- !u!114 &1096835550769709
 MonoBehaviour:
@@ -8435,7 +8461,7 @@ MonoBehaviour:
   Path: ../FMOD Sounds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638098125440000000
+  lastModified: 638107726410000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -9219,6 +9245,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &2144780112779201212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2174103290099158807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12172,6 +12218,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 38453
+--- !u!114 &5575145069004201833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Yellowstone/RiverRunning
+  m_EditorClassIdentifier: 
+  Path: event:/Yellowstone/RiverRunning
+  guid: d2331235f60a764abbd5b12c0ba868c9
+  Banks:
+  - {fileID: 1005931248875679061}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &5580738903062761959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13785,6 +13854,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 57599
+--- !u!114 &7875036857144885318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WaterfallTroms/WaterfallDistance
+  m_EditorClassIdentifier: 
+  Name: WaterfallDistance
+  Min: 0
+  Max: 70
+  Default: 6
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &7881155845066851617
 MonoBehaviour:
   m_ObjectHideFlags: 0

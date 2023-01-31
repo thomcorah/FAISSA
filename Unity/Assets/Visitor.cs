@@ -65,7 +65,7 @@ public class Visitor : MonoBehaviour
      *  parameter used when calculating movement.
      */
     [SerializeField]
-    float movementSpeed = 10.0f;
+    float movementSpeed = 20.0f;
 
     /** 
      *  timeStarted is used to log the time when the Visitor GameObject is created. This allows
@@ -162,7 +162,7 @@ public class Visitor : MonoBehaviour
       if(Application.isEditor) {
         float horizontal = Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime;
         float vertical = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime;
-        rb.velocity = new Vector3(horizontal * movementSpeed, 0, vertical * movementSpeed);
+        rb.velocity = transform.TransformVector(new Vector3(horizontal * movementSpeed, 0, vertical * movementSpeed));
 
         float rotAmountX = Input.GetAxis("Mouse X") * mouseSensitivity;
         float rotAmountY = Input.GetAxis("Mouse Y") * mouseSensitivity;
@@ -253,6 +253,7 @@ public class Visitor : MonoBehaviour
     void IndoorAtlasOnLocationChanged(IndoorAtlas.Location location) {
       // *** UNCOMMENT THIS TO USE TARGETLOCATION FROM INDOORATLAS SESSION
       
+      /*
       Debug.Log("New Coordinates Received");
       latLong = new Vector2((float)location.position.coordinate.latitude, (float)location.position.coordinate.longitude);
 
@@ -267,7 +268,7 @@ public class Visitor : MonoBehaviour
       debugMsg = "East: " + eastDif + ". North: " + northDif;
       
       targetLocation = new Vector3(-northDif, 0.9f, eastDif);
-      
+      */
     }
 
     /**
