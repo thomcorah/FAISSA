@@ -19,9 +19,41 @@ Full documentation of the code written for the Unity session. A brief summary of
 
 Open the FMOD session in FMOD Studio v2.01.08 or later and build for desktop. FMOD Studio is free and can be downloaded from <https://fmod.com>
 
-Open the Unity session. I has been authored with Unity v2020.03.3f1. Unity can be downloaded from <https://unity.com>
+Open the Unity session. It has been authored with Unity v2020.03.3f1. Unity can be downloaded from <https://unity.com>
 
-Install the FMOD Unity integration to connect FMOD and Unity. Full details are available here: <https://www.fmod.com/unity>
+Install the FMOD Unity integration to connect FMOD and Unity. Full details are available here: <https://www.fmod.com/unity>. Ensure that the built FMOD sound bank has been selected in Unity via FMOD -> Edit Settings -> Studio Project Path
+
+This system makes use of Resonance Audio for the spatialisation of sound sources in FMOD. This requires the installation of the Resonance Audio Plugin in Unity. Full instructions are here: <https://resonance-audio.github.io/resonance-audio/develop/fmod/game-engine-integration>
+
+If you plan to build from Unity to iOS, pay particular attention to the section titled: Deploying the plugins on iOS using Unity. In addition to what is described here, you will need to add resonance audio as a plugin for FMOD within Unity. In Unity, go to FMOD -> Edit Settings and scroll down to Dynamic Plugins. Click the Add Plugin button, and enter "resonanceaudio" in the text box, without quote marks. 
+
+## Building and Running
+
+### In the Unity Editor
+
+This experience can be run within the Unity editor. In order to do so, the positioning and rotation of the visitor GameObject needs to be handled by the mouse and keyboard, not the indoor positioning system and Bose headphones. 
+
+The Visitor GameObject has a RotationMatcher component added. This matches the rotation of the GameObject to that received from the Bose headphones. Turn this off. 
+
+This should be sufficient to run in the editor. When running in the editor, the mouse can be used to rotate the Visitor, and the arrow keys can be used to move.
+
+### On an iOS device (not on location)
+
+SAARPS can be run on a device from a location that is NOT the Victorian Gallery. In this case, it will use the orientation data from the Bose headphones, but not the location data from Indoor Atlas. In order to build to an iOS device you will need a paid-for Apple Developer Account, and will need to create a provisioning profile for this project that includes your iOS device. Refer to the Apple Developer documentation for this.
+
+On the Visitor GameObject, turn the RotationMatcher component on.
+
+In Visitor.cs, there is a method provided by the Indoor Atlas SDK (IndoorAtlasOnLocationChanged(IndoorAtlas.Location location)) that is used to manage the indoor location information provided. This method takes this input from Indoor Atlas and translates it into the Unity world coordinate system. If you are not on location, ensure the contents of this method remain commented out.
+
+Now Build the Unity Project. File -> Build Settings. Ensure Middleground is the selected scene and iOS is selected, then click Build and Run.
+
+This will create an XCode project. Open this and select your Provisioning Profile under Unity-iPhone -> Signing & Capabilities to be able to build to your iOS device. 
+
+When running on an iOS device, you can connect Bose AR Enabled headphones to the device and these will be used for both audio output and sensor input. In order to move around the space a transparent control mechanism has been implemented. Hold a single finger anywhere on the screen of the iOS device and then tilt it to move. Unlike the mouse keys for movement in the editor, the tilt of the device has been mapped to update the east/north coordinates. This means that tilting forwards does not move you forwards, but east.
+
+### On an iOS device (on location)
+
+If you are running the application in the Victorian Gallery, you will want location updates from the Indoor Atlas SDK. Before building the application in Unity as above, uncomment the contens of the IndoorAtlasOnLocationChanged(IndoorAtlas.Location location) method in Visitor.cs.
 
 ## The Code
 
