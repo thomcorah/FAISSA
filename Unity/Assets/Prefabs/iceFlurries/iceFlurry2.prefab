@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7977425419778357964}
   - component: {fileID: 3374331439832382802}
-  - component: {fileID: -7401126678042430358}
+  - component: {fileID: 4652804786482671053}
   m_Layer: 0
   m_Name: iceFlurry2
   m_TagString: Untagged
@@ -55,7 +55,7 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &-7401126678042430358
+--- !u!114 &4652804786482671053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,6 +64,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2413922633810982830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81adc55e6cf18420e81dccd648bf0589, type: 3}
+  m_Script: {fileID: 11500000, guid: 1dc6c2a33e92e4ba5879d7544c55461c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -231,7 +231,7 @@ public class Visitor : MonoBehaviour
 
       audioGuide.transform.position = new Vector3(transform.position.x + 2, 1.8f, transform.position.z + 2);
 
-      Debug.Log("Current loc: " + transform.position);
+      //Debug.Log("Current loc: " + transform.position);
     }
 
     /** 

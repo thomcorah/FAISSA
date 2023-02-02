@@ -276,6 +276,7 @@ public class MaryGrant : MonoBehaviour
      *  It is also used to move the Winds GameObject towards the position of the visitor.
      */
     void TransitionIn() {
+      Debug.Log("transitionIn");
       if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5))){
         commentaryController.StartCommentary();
         Transitioning = false;
@@ -299,14 +300,15 @@ public class MaryGrant : MonoBehaviour
      *  Transitioning is set to false.
      */
     void TransitionOut() {
+      Debug.Log("transitionOut");
       float speed = 1.5f * Time.deltaTime;
-      Winds.transform.position = Vector3.MoveTowards(visitor.transform.position, transform.TransformPoint(new Vector3(0.5f, 0.0f, 1.5f)), speed);
-      float windDistance = Vector3.Distance(Winds.transform.position, new Vector3(0.5f, 0.0f, 1.5f));
+      Winds.transform.position = Vector3.MoveTowards(Winds.transform.position, transform.TransformPoint(new Vector3(0.5f, 0.0f, 1.5f)), speed);
+      float windDistance = Vector3.Distance(Winds.transform.position, transform.TransformPoint(new Vector3(0.5f, 0.0f, 1.5f)));
 
       float step = Time.deltaTime * 1f;
-      Flutes.transform.position = Vector3.MoveTowards(Flutes.transform.position, flutesStartPos, step);
-      Flutes2.transform.position = Vector3.MoveTowards(Flutes2.transform.position, flutes2StartPos, step);
-      float flutesDistance = Vector3.Distance(Flutes.transform.position, flutesStartPos);
+      Flutes.transform.position = Vector3.MoveTowards(Flutes.transform.position, transform.TransformPoint(flutesStartPos), step);
+      Flutes2.transform.position = Vector3.MoveTowards(Flutes2.transform.position, transform.TransformPoint(flutes2StartPos), step);
+      float flutesDistance = Vector3.Distance(Flutes.transform.position, transform.TransformPoint(flutesStartPos));
 
       if(windDistance < 0.2f && flutesDistance < 0.2f){
         fade_complete = false;
