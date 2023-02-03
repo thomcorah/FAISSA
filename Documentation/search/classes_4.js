@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['icewalk_0',['IceWalk',['../class_ice_walk.html',1,'']]]
+  ['iceflurry_0',['IceFlurry',['../class_ice_flurry.html',1,'']]],
+  ['icewalk_1',['IceWalk',['../class_ice_walk.html',1,'']]]
 ];

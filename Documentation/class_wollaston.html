@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>NWM: Wollaston Class Reference</title>
+<title>BACIS: A Framework for Binaural Audio Composition for Indoor Spaces: Wollaston Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">NWM
+   <div id="projectname">BACIS: A Framework for Binaural Audio Composition for Indoor Spaces
    </div>
   </td>
  </tr>
@@ -71,8 +71,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="class_wollaston-members.html">List of all members</a>  </div>
+<a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle"><div class="title">Wollaston Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -153,7 +152,7 @@ Private Attributes</h2></td></tr>
 <p>Some paintings have a staged transition in. This is achieved by a call to <a class="el" href="class_wollaston.html#af33402aa4dc17a945d25e671dd657b9b" title="TransisitionIn() is called every frame by Update() while both Active and Transitioning are true.">TransitionIn()</a> from the <a class="el" href="class_wollaston.html#aaf20739928442ae31a93d20a90c0cd8d" title="Update() is called once per frame.">Update()</a> method if the painting is Active and Transitioning.</p>
 <p>Conversely, if the painting is Active and the <a class="el" href="class_visitor.html" title="The script attached to the object representing the location and orientation of the user within the ga...">Visitor</a> moves away from the painting, the <a class="el" href="class_wollaston.html#a33e4e1bc8522baf1f1710501732f7c4c" title="The Exit() method is called when the visitor leaves the painting area by moving further away than the...">Exit()</a> method is called which begins the process of stopping the soundscape, including setting the Active flag to false.</p>
 <p>As with entering the painting, the Transitioning boolean is set to true. If the painting is not Active, but is Transitioning, <a class="el" href="class_wollaston.html#ae1548187e32f367dca7d5a6a6d5e7ca1" title="TransitionOut() is called every frame from Update() as long as Transitioning is true and Active is fa...">TransitionOut()</a> is repeatedly called from <a class="el" href="class_wollaston.html#aaf20739928442ae31a93d20a90c0cd8d" title="Update() is called once per frame.">Update()</a> to enable any exit transitions to be completed.</p>
-<p>The soundscape for this piece is broadly constructed of two types of event. Within the scene are four GameObjects that represent each of four people depicted in the painting. For each of these a series of whispered thoughts have been recorded, chopped up, and arranged rhytmically. Each of these people also has a single instrument part based on a short extract from Vivaldi's Four Seasons: Summer attached. The sound emenating from each person's GameObject is therefore a changing balance of the whispers and the instrumental. This is handled by <a class="el" href="class_wollaston_people.html" title="WollastonPeople is used by Wollaston, attached to the GameObject representing the painting The Wollas...">WollastonPeople</a>.</p>
+<p>The soundscape for this piece is broadly constructed of two types of event. Within the scene are four GameObjects that represent each of four people depicted in the painting. For each of these a series of whispered thoughts have been recorded, chopped up, and arranged rhythmically. Each of these people also has a single instrument part based on a short extract from Vivaldi's Four Seasons: Summer attached. The sound emenating from each person's GameObject is therefore a changing balance of the whispers and the instrumental. This is handled by <a class="el" href="class_wollaston_people.html" title="WollastonPeople is used by Wollaston, attached to the GameObject representing the painting The Wollas...">WollastonPeople</a>.</p>
 <p>The other type of sounds are background drones that are triggered with varying probability. </p>
 
 <p class="definition">Definition at line <a class="el" href="_wollaston_8cs_source.html#l00040">40</a> of file <a class="el" href="_wollaston_8cs_source.html">Wollaston.cs</a>.</p>
@@ -176,7 +175,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -209,7 +208,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -245,7 +244,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -278,7 +277,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -310,7 +309,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -342,7 +341,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -357,7 +356,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<h2 class="groupheader">Field Documentation</h2>
 <a id="a7ce1d721fd24eef7b5a0f1a015a8f743" name="a7ce1d721fd24eef7b5a0f1a015a8f743"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ce1d721fd24eef7b5a0f1a015a8f743">&#9670;&#160;</a></span>Active</h2>
 

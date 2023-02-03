@@ -1,20 +1,14 @@
 var searchData=
 [
-  ['railwaysounds_0',['RailwaySounds',['../class_railway_sounds.html',1,'RailwaySounds'],['../class_railway_station.html#a8405790d3aa0d854ec62ce3bf0ac6503',1,'RailwayStation.RailwaySounds()']]],
-  ['railwaystation_1',['RailwayStation',['../class_railway_station.html',1,'']]],
-  ['randommovement_2',['randomMovement',['../classrandom_movement.html',1,'']]],
-  ['rb_3',['rb',['../classdistant_trombone.html#a76dde9b1226458e05553be1c14521245',1,'distantTrombone.rb()'],['../classriver.html#a7aac1e4bac531b8d566ea66061606f36',1,'river.rb()'],['../class_visitor.html#abafbfe9e12fa72caef9d2ba5deae1466',1,'Visitor.rb()']]],
-  ['respawntime_4',['respawnTime',['../classgenerate_rivers.html#aaa01afa549ca0517180872acc3bde909',1,'generateRivers']]],
-  ['river_5',['river',['../classriver.html',1,'']]],
-  ['riverobjects_6',['riverObjects',['../classgenerate_rivers.html#a206e1ff94c5e50a2a599937bb486b8b3',1,'generateRivers']]],
-  ['riverprefab_7',['riverPrefab',['../classgenerate_rivers.html#ab7bb471dfb15fba48d15ff6adc3a9786',1,'generateRivers']]],
-  ['rivers_8',['rivers',['../class_yellowstone_falls.html#af97fde1706fd60041da311dfbb20f1b4',1,'YellowstoneFalls']]],
-  ['robin_9',['robin',['../classrobin.html',1,'']]],
-  ['running1_10',['running1',['../class_bosworth_running.html#a58689ca9586d4ee58bd6a4a97733134a',1,'BosworthRunning']]],
-  ['running1endpos_11',['running1EndPos',['../class_bosworth_running.html#a593c08786262704fa38e732af365d752',1,'BosworthRunning']]],
-  ['running1startpos_12',['running1StartPos',['../class_bosworth_running.html#a6cb181eec3f4f1c9a9e46549b6c0b8b4',1,'BosworthRunning']]],
-  ['running2_13',['running2',['../class_bosworth_running.html#ad942cac5e52f296fc1e395f19f3eb6c5',1,'BosworthRunning']]],
-  ['running2endpos_14',['running2EndPos',['../class_bosworth_running.html#a909fe6e0f4df0d6a75e0d617958cf5a1',1,'BosworthRunning']]],
-  ['running3_15',['running3',['../class_bosworth_running.html#ab7dce9eea0dc4c5f5d640637cbf1697f',1,'BosworthRunning']]],
-  ['running3endpos_16',['running3EndPos',['../class_bosworth_running.html#a1414af0c8ee5c5b248473181c2615a9b',1,'BosworthRunning']]]
+  ['painting_0',['Painting',['../class_railway_station.html#af4d85308e0bf2c396509484506359811',1,'RailwayStation.Painting()'],['../class_commentary_controller.html#a9f4fddcf9bd2e9f6eafe1b5850fdd854a2875ec54afbd9922e0553f4b441aa54b',1,'CommentaryController.Painting()']]],
+  ['paintingintroduction_1',['PaintingIntroduction',['../class_commentary_controller.html#a9f4fddcf9bd2e9f6eafe1b5850fdd854a0cc04876d7a123f126a84614ab4ed666',1,'CommentaryController']]],
+  ['paintingintroplayed_2',['PaintingIntroPlayed',['../class_commentary_controller.html#a6b38418cb7b84f98614645acac85de2e',1,'CommentaryController']]],
+  ['playclip_3',['PlayClip',['../class_commentary_controller.html#afbe2872f2dd20bcdd0cb0958c1ac6d6f',1,'CommentaryController']]],
+  ['playpaintingcommentary_4',['PlayPaintingCommentary',['../class_commentary_controller.html#adfaa034a6dd2677310dcd610e141e80e',1,'CommentaryController']]],
+  ['probabilityofdirectionchange_5',['probabilityOfDirectionChange',['../class_wollaston.html#a77ca664177e65f909fab5cc740dabefb',1,'Wollaston']]],
+  ['probchangeiceflurrydirection_6',['probChangeIceFlurryDirection',['../class_bosworth.html#ad4785255ef0d5adf8074b5ef71f03e80',1,'Bosworth']]],
+  ['probinterval_7',['probInterval',['../class_wollaston.html#a13e0c3ce84470305a1110488793287c0',1,'Wollaston']]],
+  ['probnewbaldeagle_8',['probNewBaldEagle',['../class_yellowstone_falls.html#a03e53b3898a3fe0b6158370b2946241a',1,'YellowstoneFalls']]],
+  ['probnewbullelk_9',['probNewBullElk',['../class_yellowstone_falls.html#ad9c2b1d4df0d9e871a87ee112908c2f7',1,'YellowstoneFalls']]],
+  ['progressvelocity_10',['progressVelocity',['../class_mary_grant.html#a4da31db1829fcc66f1893ba1aabe6415',1,'MaryGrant']]]
 ];

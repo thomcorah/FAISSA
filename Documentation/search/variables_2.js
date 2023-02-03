@@ -12,5 +12,6 @@ var searchData=
   ['crossfadevelocity_9',['crossFadeVelocity',['../class_railway_sounds.html#a2fb80dbbc283d08c1d888b41703d3fc7',1,'RailwaySounds']]],
   ['currentcommentaryclip_10',['currentCommentaryClip',['../class_commentary_controller.html#a5bfd4b0fb0cc550924fb4ce2907d73d5',1,'CommentaryController']]],
   ['currentlocation_11',['currentLocation',['../class_commentary_controller.html#abda055e96a977b0e6cb7dfe57d67885d',1,'CommentaryController']]],
-  ['currentprobability_12',['currentProbability',['../class_wollaston.html#a78fc843a4d2a477d9cb77b7852607147',1,'Wollaston']]]
+  ['currentprobability_12',['currentProbability',['../class_wollaston.html#a78fc843a4d2a477d9cb77b7852607147',1,'Wollaston']]],
+  ['curtime_13',['curTime',['../classrandom_movement.html#a78e6966a747ce5147e7d72ea6aee0cb6',1,'randomMovement']]]
 ];
