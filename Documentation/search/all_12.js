@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['vel_0',['vel',['../classrandom_movement.html#a396aa1a6f5984a3ac38cc15fc453e5ac',1,'randomMovement']]],
-  ['visitor_1',['Visitor',['../class_visitor.html',1,'']]],
-  ['visitor_2',['visitor',['../class_bosworth.html#afaee21b30ffdaff593c06b831eb38607',1,'Bosworth.visitor()'],['../class_bosworth_running.html#a9d960eed15d1360d683a97e910f34c24',1,'BosworthRunning.visitor()'],['../class_ice_walk.html#a0f3afc4f57d1f62d44c742d81912dacf',1,'IceWalk.visitor()'],['../class_mary_grant.html#aa7de9dd4b3c9b0e7b41854a932415fae',1,'MaryGrant.visitor()'],['../class_railway_station.html#a4067d9223282fcab04a1aa0edadd7cd3',1,'RailwayStation.visitor()'],['../classrobin.html#a14aeb2f3f6091d57ae28a7ad39ab76b9',1,'robin.visitor()'],['../class_the_girl.html#a3ff5fffac6738c8c0c8f40eb61c87eed',1,'TheGirl.visitor()'],['../class_wollaston.html#a9709edb325c3d158fa44670ee0f0d2a0',1,'Wollaston.visitor()'],['../class_wollaston_people.html#acc072c594a8f7b7e6520bd40b479c1b7',1,'WollastonPeople.visitor()'],['../class_yellowstone_falls.html#ab38a9f0db1a6e87d0b3d5446eba27bb0',1,'YellowstoneFalls.visitor()']]],
-  ['visitor_2ecs_3',['Visitor.cs',['../_visitor_8cs.html',1,'']]],
-  ['visitorrotationadjustment_4',['visitorRotationAdjustment',['../class_visitor.html#a28e297a760dab86e34895187e0e86bb2',1,'Visitor']]]
+  ['waitingforcommentaryofftest_0',['waitingForCommentaryOffTest',['../class_commentary_controller.html#ae9b60aa2b0bb730c5d3e0fa51ff7996e',1,'CommentaryController']]],
+  ['waitingfornodorshake_1',['waitingForNodOrShake',['../class_commentary_controller.html#a41d393dbab40c28b6f54d62b0029e4f8',1,'CommentaryController']]],
+  ['waittime_2',['waitTime',['../class_railway_station.html#ade66a73964982263cf17746ddeb876e4',1,'RailwayStation']]],
+  ['wearablecontrol_3',['wearableControl',['../class_commentary_controller.html#af5bfc5d3809373642fc670232ee1ec7d',1,'CommentaryController']]],
+  ['william_4',['William',['../class_wollaston_people.html#a9c032537a51a44306e1ac4b5168ed8bf',1,'WollastonPeople']]],
+  ['williampos_5',['WilliamPos',['../class_wollaston_people.html#a4fa35c2fc6ebc5fd2e5930abbd38b51d',1,'WollastonPeople']]],
+  ['winds_6',['Winds',['../class_mary_grant.html#a924339cd2e171f9791b47d66a113f977',1,'MaryGrant']]],
+  ['wollaston_7',['Wollaston',['../class_wollaston.html',1,'']]],
+  ['wollastonpeople_8',['WollastonPeople',['../class_wollaston_people.html',1,'WollastonPeople'],['../class_wollaston.html#a97d94e13a0a0eed80c9c225f4971de68',1,'Wollaston.WollastonPeople()']]]
 ];

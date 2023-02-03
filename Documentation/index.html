@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>BACIS: A Framework for Binaural Audio Composition for Indoor Spaces: Main Page</title>
+<title>FAISSA: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,8 +23,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">BACIS: A Framework for Binaural Audio Composition for Indoor Spaces
+   <div id="projectname">FAISSA
    </div>
+   <div id="projectbrief">A Framework for Augmenting Indoor Spaces with Spatial Audio</div>
   </td>
  </tr>
  </tbody>
@@ -71,395 +72,394 @@ $(function() {
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">BACIS: A Framework for Binaural Audio Composition for Indoor Spaces Documentation</div></div>
+  <div class="headertitle"><div class="title">FAISSA Documentation</div></div>
 </div><!--header-->
-<div class="contents">
-</div><!-- contents -->
 <div class="contents">
   <div class="container">
     <h2>Introduction</h2>
-<p>This documentation presents the code used in Unity for SAARPS - a system for the production and delivery of an artistic audio augmented reality system for use in public spaces such as galleries.</p>
+    <p>This documentation presents the code used in Unity for SAARPS - a system for the production and delivery of an artistic audio augmented reality system for use in public spaces such as galleries.</p>
 
-<p>This example is intended to be used in the Victorian Gallery at the Leicester Museum and Art Gallery, and provides spatialised audio experiences for six selected paintings in the gallery.</p>
+    <p>This example is intended to be used in the Victorian Gallery at the Leicester Museum and Art Gallery, and provides spatialised audio experiences for six selected paintings in the gallery.</p>
  
-<p>This wider repository (<a href="https://github.com/thomcorah/VictorianGalleryNWM">found here</a>) contains three folders:</p>
+    <p>This wider repository (<a href="https://github.com/thomcorah/VictorianGalleryNWM">found here</a>) contains three folders:</p>
 
-<p><strong>FMOD Sounds</strong><br>
-Contains the full FMOD audio session from which to build the sound bank for Unity.</p>
+    <p><strong>FMOD Sounds</strong><br>
+    Contains the full FMOD audio session from which to build the sound bank for Unity.</p>
 
-<p><strong>Unity</strong><br>
-The Unity game environment used to create the virtual sound world for the augmented reality experience.</p>
+    <p><strong>Unity</strong><br>
+    The Unity game environment used to create the virtual sound world for the augmented reality experience.</p>
 
-<p><strong>Documentation</strong><br>
-Full documentation of the code written for the Unity session. A brief summary of the main points follows below.</p>
+    <p><strong>Documentation</strong><br>
+    Full documentation of the code written for the Unity session. A brief summary of the main points follows below.</p>
 
-<h2>Installation</h2>
+    <h2>Installation</h2>
 
-<p>Open the FMOD session in FMOD Studio v2.01.08 or later and build for desktop. FMOD Studio is free and can be downloaded from <a href="https://fmod.com">https://fmod.com</a>.</p>
+    <p>Open the FMOD session in FMOD Studio v2.01.08 or later and build for desktop. FMOD Studio is free and can be downloaded from <a href="https://fmod.com">https://fmod.com</a>.</p>
 
-<p>Open the Unity session. It has been authored with Unity v2020.03.3f1. Unity can be downloaded from <a href="https://unity.com">https://unity.com</a></p>
+    <p>Open the Unity session. It has been authored with Unity v2020.03.3f1. Unity can be downloaded from <a href="https://unity.com">https://unity.com</a></p>
 
-<p>Install the FMOD Unity integration to connect FMOD and Unity. Full details are available here: <a href="https://www.fmod.com/unity">https://www.fmod.com/unity</a>. Ensure that the built FMOD sound bank has been selected in Unity via FMOD -> Edit Settings -> Studio Project Path</p>
+    <p>Install the FMOD Unity integration to connect FMOD and Unity. Full details are available here: <a href="https://www.fmod.com/unity">https://www.fmod.com/unity</a>. Ensure that the built FMOD sound bank has been selected in Unity via FMOD -> Edit Settings -> Studio Project Path</p>
 
-<p>This system makes use of Resonance Audio for the spatialisation of sound sources in FMOD. This requires the installation of the Resonance Audio Plugin in Unity. Full instructions are here: <a href="https://resonance-audio.github.io/resonance-audio/develop/fmod/game-engine-integration">https://resonance-audio.github.io/resonance-audio/develop/fmod/game-engine-integration</a></p>
+    <p>This system makes use of Resonance Audio for the spatialisation of sound sources in FMOD. This requires the installation of the Resonance Audio Plugin in Unity. Full instructions are here: <a href="https://resonance-audio.github.io/resonance-audio/develop/fmod/game-engine-integration">https://resonance-audio.github.io/resonance-audio/develop/fmod/game-engine-integration</a></p>
 
-<p>If you plan to build from Unity to iOS, pay particular attention to the section titled: Deploying the plugins on iOS using Unity. In addition to what is described here, you will need to add resonance audio as a plugin for FMOD within Unity. In Unity, go to FMOD -> Edit Settings and scroll down to Dynamic Plugins. Click the Add Plugin button, and enter "resonanceaudio" in the text box, without quote marks.</p>
+    <p>If you plan to build from Unity to iOS, pay particular attention to the section titled: Deploying the plugins on iOS using Unity. In addition to what is described here, you will need to add resonance audio as a plugin for FMOD within Unity. In Unity, go to FMOD -> Edit Settings and scroll down to Dynamic Plugins. Click the Add Plugin button, and enter "resonanceaudio" in the text box, without quote marks.</p>
 
-<h2>Building and Running</h2>
+    <h2>Building and Running</h2>
 
-<h3>In the Unity Editor</h3>
+    <h3>In the Unity Editor</h3>
 
-<p>This experience can be run within the Unity editor. In order to do so, the positioning and rotation of the visitor GameObject needs to be handled by the mouse and keyboard, not the indoor positioning system and Bose headphones. </p>
+    <p>This experience can be run within the Unity editor. In order to do so, the positioning and rotation of the visitor GameObject needs to be handled by the mouse and keyboard, not the indoor positioning system and Bose headphones. </p>
 
-<p>The Visitor GameObject has a RotationMatcher component added. This matches the rotation of the GameObject to that received from the Bose headphones. Turn this off. </p>
+    <p>The Visitor GameObject has a RotationMatcher component added. This matches the rotation of the GameObject to that received from the Bose headphones. Turn this off. </p>
 
-<p>This should be sufficient to run in the editor. When running in the editor, the mouse can be used to rotate the Visitor, and the arrow keys can be used to move.</p>
+    <p>This should be sufficient to run in the editor. When running in the editor, the mouse can be used to rotate the Visitor, and the arrow keys can be used to move.</p>
 
-<h3>On an iOS device (not on location)</h3>
+    <h3>On an iOS device (not on location)</h3>
 
-<p>SAARPS can be run on a device from a location that is NOT the Victorian Gallery. In this case, it will use the orientation data from the Bose headphones, but not the location data from Indoor Atlas. In order to build to an iOS device you will need a paid-for Apple Developer Account, and will need to create a provisioning profile for this project that includes your iOS device. Refer to the Apple Developer documentation for this.</p>
+    <p>SAARPS can be run on a device from a location that is NOT the Victorian Gallery. In this case, it will use the orientation data from the Bose headphones, but not the location data from Indoor Atlas. In order to build to an iOS device you will need a paid-for Apple Developer Account, and will need to create a provisioning profile for this project that includes your iOS device. Refer to the Apple Developer documentation for this.</p>
 
-<p>On the Visitor GameObject, turn the RotationMatcher component on.</p>
+    <p>On the Visitor GameObject, turn the RotationMatcher component on.</p>
 
-<p>In Visitor.cs, there is a method provided by the Indoor Atlas SDK (IndoorAtlasOnLocationChanged(IndoorAtlas.Location location)) that is used to manage the indoor location information provided. This method takes this input from Indoor Atlas and translates it into the Unity world coordinate system. If you are not on location, ensure the contents of this method remain commented out.</p>
+    <p>In Visitor.cs, there is a method provided by the Indoor Atlas SDK (IndoorAtlasOnLocationChanged(IndoorAtlas.Location location)) that is used to manage the indoor location information provided. This method takes this input from Indoor Atlas and translates it into the Unity world coordinate system. If you are not on location, ensure the contents of this method remain commented out.</p>
 
-<p>Now Build the Unity Project. File -> Build Settings. Ensure Middleground is the selected scene and iOS is selected, then click Build and Run.</p>
+    <p>Now Build the Unity Project. File -> Build Settings. Ensure Middleground is the selected scene and iOS is selected, then click Build and Run.</p>
 
-<p>This will create an XCode project. Open this and select your Provisioning Profile under Unity-iPhone -> Signing & Capabilities to be able to build to your iOS device. </p>
+    <p>This will create an XCode project. Open this and select your Provisioning Profile under Unity-iPhone -> Signing & Capabilities to be able to build to your iOS device. </p>
 
-<p>When running on an iOS device, you can connect Bose AR Enabled headphones to the device and these will be used for both audio output and sensor input. In order to move around the space a transparent control mechanism has been implemented. Hold a single finger anywhere on the screen of the iOS device and then tilt it to move. Unlike the mouse keys for movement in the editor, the tilt of the device has been mapped to update the east/north coordinates. This means that tilting forwards does not move you forwards, but east.</p>
+    <p>When running on an iOS device, you can connect Bose AR Enabled headphones to the device and these will be used for both audio output and sensor input. In order to move around the space a transparent control mechanism has been implemented. Hold a single finger anywhere on the screen of the iOS device and then tilt it to move. Unlike the mouse keys for movement in the editor, the tilt of the device has been mapped to update the east/north coordinates. This means that tilting forwards does not move you forwards, but east.</p>
 
-<h3>On an iOS device (on location)</h3>
+    <h3>On an iOS device (on location)</h3>
 
-<p>If you are running the application in the Victorian Gallery, you will want location updates from the Indoor Atlas SDK. Before building the application in Unity as above, uncomment the contens of the IndoorAtlasOnLocationChanged(IndoorAtlas.Location location) method in Visitor.cs.</p>
+    <p>If you are running the application in the Victorian Gallery, you will want location updates from the Indoor Atlas SDK. Before building the application in Unity as above, uncomment the contens of the IndoorAtlasOnLocationChanged(IndoorAtlas.Location location) method in Visitor.cs.</p>
 
-<h3>Runtime Options</h3> 
+    <h3>Runtime Options</h3> 
 
-<p>The Visitor GameObject includes a control to adjust the avatar movement speed when run in the editor. Look for 'Movement Speed' in the properties panel when the Visitor GameObject is selected.</p>
+    <p>The Visitor GameObject includes a control to adjust the avatar movement speed when run in the editor. Look for 'Movement Speed' in the properties panel when the Visitor GameObject is selected.</p>
 
-<p>The Commentary Controller GameObject properties panel includes options to turn the commentary on or off, as well as toggle that the main gallery introduction and the one-time instructional painting introduction have already been played.</p>
+    <p>The Commentary Controller GameObject properties panel includes options to turn the commentary on or off, as well as toggle that the main gallery introduction and the one-time instructional painting introduction have already been played.</p>
 
-<h2>The Code</h2>
+    <h2>The Code</h2>
 
-<h3>Overview</h3>
+    <h3>Overview</h3>
 
-<p>The Victorian Gallery is represented in Unity as a rectangular space. Six paintings spaced around the gallery have been chosen as those to be augmented with spatialised sound and audio commentary. These paintings are each represented by an object in Unity that contains a range of further assets as appropriate. Additionally, each painting object has an attached script that handles a number of painting-specific actions such as the triggering of the soundscape and audio commentary based on the proximity of the visitor.</p>
+    <p>The Victorian Gallery is represented in Unity as a rectangular space. Six paintings spaced around the gallery have been chosen as those to be augmented with spatialised sound and audio commentary. These paintings are each represented by an object in Unity that contains a range of further assets as appropriate. Additionally, each painting object has an attached script that handles a number of painting-specific actions such as the triggering of the soundscape and audio commentary based on the proximity of the visitor.</p>
 
-<p>These scripts are in the <em>Assets</em> folder and are named for the painting to which they belong: <em>YellowstoneFalls.cs</em>, <em>Bosworth.cs</em>, <em>MaryGrant.cs</em>, <em>RailwayStation.cs</em>, <em>TheGirl.cs</em>, and <em>Wollaston.cs</em>.</p>
+    <p>These scripts are in the <em>Assets</em> folder and are named for the painting to which they belong: <em>YellowstoneFalls.cs</em>, <em>Bosworth.cs</em>, <em>MaryGrant.cs</em>, <em>RailwayStation.cs</em>, <em>TheGirl.cs</em>, and <em>Wollaston.cs</em>.</p>
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/21426a5e-f0cc-489f-a8c1-e0fa89b51c3d" id="mHYsc5DsGJML"></iframe></div>
+    <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/21426a5e-f0cc-489f-a8c1-e0fa89b51c3d" id="mHYsc5DsGJML"></iframe></div>
 
-<p>The visitor is represented by a cuboid in the game environment. In order for this object to receive location data from the Indoor Atlas indoor positioning system, it is contained within an <em>IndoorAtlas Session</em> object.</p>
+    <p>The visitor is represented by a cuboid in the game environment. In order for this object to receive location data from the Indoor Atlas indoor positioning system, it is contained within an <em>IndoorAtlas Session</em> object.</p>
 
-<p>The script attached to the visitor (<em>Assets/Visitor.cs</em>) responds to the IndoorAtlas API and moves the visitor object accordingly.</p>
+    <p>The script attached to the visitor (<em>Assets/Visitor.cs</em>) responds to the IndoorAtlas API and moves the visitor object accordingly.</p>
 
-<p>Although triggered by the paintings themselves, the commentary is otherwise controlled independently by the <em>CommentaryController</em> object (<em>Assets/CommentaryController.cs</em>).</p>
+    <p>Although triggered by the paintings themselves, the commentary is otherwise controlled independently by the <em>CommentaryController</em> object (<em>Assets/CommentaryController.cs</em>).</p>
 
-<h3>The Paintings</h3>
+    <h3>The Paintings</h3>
 
-<h4>Properties</h4>
+    <h4>Properties</h4>
 
-<p>There are several properties that are common to all top level painting scripts.</p>
+    <p>There are several properties that are common to all top level painting scripts.</p>
 
-<p>The first stores a reference to the <em>CommentaryController</em> object.</p>
+    <p>The first stores a reference to the <em>CommentaryController</em> object.</p>
 
-<pre><code class="language-cs">
-private CommentaryController commentaryController;
-</code></pre>
+    <pre><code class="language-cs">
+    private CommentaryController commentaryController;
+    </code></pre>
 
-<p>The <em>visitor</em> property stores a reference to the visitor avatar object. The script also keeps track of the distance from the visitor to the painting so as to trigger entrance and exit from the painting's sound world.</p>
+    <p>The <em>visitor</em> property stores a reference to the visitor avatar object. The script also keeps track of the distance from the visitor to the painting so as to trigger entrance and exit from the painting's sound world.</p>
 
-<pre><code class="language-cs">
-private Visitor visitor;  
-private float distance;
-</code></pre>
+    <pre><code class="language-cs">
+    private Visitor visitor;  
+    private float distance;
+    </code></pre>
 
-<p>The <em>Transitioning</em> and <em>Active</em> properties are used to track the state of the painting's sound world. When the visitor enters or exits the sound world, there is a period of transition. The <em>Transitioning</em> boolean property tracks if the painting is currently in the transitioning state. Similarly, whilst the visitor is in the sound world of a painting, that painting is active.</p>
+    <p>The <em>Transitioning</em> and <em>Active</em> properties are used to track the state of the painting's sound world. When the visitor enters or exits the sound world, there is a period of transition. The <em>Transitioning</em> boolean property tracks if the painting is currently in the transitioning state. Similarly, whilst the visitor is in the sound world of a painting, that painting is active.</p>
 
-<pre><code class="language-cs">
-private bool Transitioning = false;
-private bool Active = false;
-</code></pre>
+    <pre><code class="language-cs">
+    private bool Transitioning = false;
+    private bool Active = false;
+    </code></pre>
 
-<p>Each painting object has within it its own game object representing the location of the audio guide. The <em>AudioGuide</em> property stores a reference to this object, in order to pass it to <em>CommenteryController</em> as the object to which to attach any painting-specific commentary.</p>
+    <p>Each painting object has within it its own game object representing the location of the audio guide. The <em>AudioGuide</em> property stores a reference to this object, in order to pass it to <em>CommenteryController</em> as the object to which to attach any painting-specific commentary.</p>
 
-<p>The commentary begins after a short pause when the visitor 'enters' the painting. The <em>timeStarted</em> property is used to log the time when the visitor enters the painting in order to start the commentary after a short delay.</p>
+    <p>The commentary begins after a short pause when the visitor 'enters' the painting. The <em>timeStarted</em> property is used to log the time when the visitor enters the painting in order to start the commentary after a short delay.</p>
 
-<pre><code class="language-cs">
-private GameObject AudioGuide;
-private DateTime timeStarted;
-</code></pre>
+    <pre><code class="language-cs">
+    private GameObject AudioGuide;
+    private DateTime timeStarted;
+    </code></pre>
 
-<h4>On Update</h4>
+    <h4>On Update</h4>
 
-<p>The <em>Update()</em> method in each painting script is run on every frame and is used to do two things.</p>
+    <p>The <em>Update()</em> method in each painting script is run on every frame and is used to do two things.</p>
 
-<p>Firstly, it monitors the distance from the painting to the visitor and begins the process of either entering or exiting the painting sound world based on a combination of this distance and the current state of the painting.</p>
+    <p>Firstly, it monitors the distance from the painting to the visitor and begins the process of either entering or exiting the painting sound world based on a combination of this distance and the current state of the painting.</p>
 
-<pre><code class="language-cs">
-distance = Vector3.Distance(visitor.transform.position, transform.position);
-if(distance < 3 && !Active){
-  Enter();
-}
-
-if(distance > 3.5 && Active) {
-  Exit();
-}
-</code></pre>
-
-<p>Secondly, any activities that occur as part of a transition either into or out of a sound world are triggered.</p>
-
-<pre><code class="language-cs">
-if(Active && Transitioning) {
-  TransitionIn();
-} else if(!Active && Transitioning) {
-  TransitionOut();
-}
-</code></pre>
-
-<h4>On Enter</h4>
-
-<p>In each painting, the <em>Enter()</em> method performs some common tasks when the visitor crosses the threshold and 'enters' a painting.</p>
-
-<p>The properties tracking the current state of the painting are updated.</p>
-
-<pre><code class="language-cs">
-Active = true;
-Transitioning = true;
-</code></pre>
-
-<p>The current time is logged in order to trigger the commentary after a short delay.</p>
-
-<pre><code class="language-cs">
-timeStarted = DateTime.Now;
-</code></pre>
-
-<p>The <em>CommentaryController</em> has this painting's audio guide object set as its sound location. The <em>CommentaryController</em> contains a property that stores the current location in order to play the correct audio files. This property is updated to the current painting - in this case, the Battle of Bosworth Field.</p>
-
-<pre><code class="language-cs">
-commentaryController.SetAudioGuide(AudioGuide);
-commentaryController.SetCurrentLocation(CommentaryController.Location.Bosworth);
-</code></pre>
-
-<h4>On Exit</h4>
-
-<p>The <em>Exit()</em> method is run when the visitor leaves the painting. All that is required here is to update the current state.</p>
-
-<pre><code class="language-cs">
-Transitioning = true;
-Active = false;
-</code></pre>
-
-<h4>Starting the Commentary</h4>
-
-<p>The final piece of code common to all paintings is that which starts the commentary playing. This is done in the <em>TransitionIn()</em> method, run every frame whilst the painting is transitioning in.</p>
-
-<p>The code compares the time logged at the beginning of the transition with the current time and begins the commentary if the duration threshold has been crossed. In this case, after five seconds.</p>
-
-<pre><code class="language-cs">
-if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5))){
-  commentaryController.StartCommentary();
-}
-</code></pre>
-
-<h3>The Visitor</h3>
-
-<p>The visitor to the space is represented by the <em>Visitor</em> object, contained within the <em>IndoorAtlas Session</em> object which utilises the IndoorAtlas indoor positioning API.</p>
-
-<p>The script attached to the Visitor game object deals with just two things: initiating gallery-level commentary and moving the visitor avatar within the game environment. The latter is achieved through either the use of keyboard and mouse input when in the editor environment, or by translating positioning data from the <em>IndoorAtlas Session</em> object that contains it when being run as a deployed application.</p>
-
-<p>There is a single item of gallery-level commentary - the gallery introduction. This is initiated after a short delay in the same way as for the painting-specific commentary.</p>
-
-<pre><code class="language-cs">
-if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5)) && !commentaryController.GalleryIntroPlayed){
-  commentaryController.StartCommentary();
-}
-</code></pre>
-
-<p>As with the paintings, the visitor contains an AudioGuide game object which is passed to the <em>CommentaryController</em> to be used as the origin for gallery-level commentary.</p>
-
-<h3>Commentary Controller</h3>
-
-<p>The <em>CommentaryController</em> object controls the playback of all commentary in the system. It contains two enums that contain a list of commentary clips and locations. Each painting has the same set of clips, with the FMOD event names identical but prepended by the name of the location as set in the locations enum property.</p>
-
-<p>For example, the FMOD event with more information on the music created for the Battle of Bosworth painting is called <em>BosworthMoreMusic</em>.</p>
-
-<pre><code class="language-cs">
-private enum CommentaryClip {
-  GalleryIntroduction,
-  PaintingIntroduction,
-  CommentaryOffTest,
-  CommentaryOffFirstTime,
-  CommentaryOff,
-  CommentaryOn,
-  FirstNod,
-  NodOrShake,
-  Intro,
-  MoreArtist,
-  Artist,
-  MorePainting,
-  Painting,
-  MoreMusic,
-  Music
-}
-
-public enum Location {
-  Gallery,
-  Yellowstone,
-  Bosworth,
-  Mary,
-  TheGirl,
-  Wollaston,
-  RailwayStation
-}
-</code></pre>
-
-<p>Both the current location and commentary clip are stored.</p>
-
-<pre><code class="language-cs">
-private Location currentLocation;
-private CommentaryClip currentCommentaryClip;
-</code></pre>
-
-<p>The <em>CommentaryController</em> also has a single FMOD event object into which the appropriate FMOD event is loaded.</p>
-
-<pre><code class="language-cs">
-private CommentaryClip currentCommentaryClip;
-</code></pre>
-
-<p>Finally, the <em>CommentaryController</em> also keeps track of various aspects of state, including whether the commentary is currently playing.</p>
-
-<pre><code class="language-cs">
-private bool CommentaryTalking = false;
-private bool WaitingForCommentaryOffTest = false;
-private bool WaitingForNodOrShake = false;
-</code></pre>
-
-<h4>On Update</h4>
-
-<p>The <em>Update()</em> method in <em>CommentaryController</em> is used to check if a playing clip has stopped. This then triggers the logic that either progresses to the next clip or waits for user input.</p>
-
-<pre><code class="language-cs">
-if(CommentaryTalking) {
-  if(commentaryClipInstance.isValid()){
-    FMOD.Studio.PLAYBACK_STATE playbackState;
-    commentaryClipInstance.getPlaybackState(out playbackState);
-    if (playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED){
-      CommentaryTalking = false;
-      OnCommentaryComplete();
+    <pre><code class="language-cs">
+    distance = Vector3.Distance(visitor.transform.position, transform.position);
+    if(distance < 3 && !Active){
+      Enter();
     }
-  }
-}
-</code></pre>
 
-<h4>BOSE Gesture Input</h4>
+    if(distance > 3.5 && Active) {
+      Exit();
+    }
+    </code></pre>
 
-<p>The <em>CommentaryController</em> registers methods with the BOSE Headphone API to handle affirmative (head nod), negative (head shake), and input (tap and hold on the side of the headphones) gestures.</p>
+    <p>Secondly, any activities that occur as part of a transition either into or out of a sound world are triggered.</p>
 
-<pre><code class="language-cs">
-WearableControl.Instance.AffirmativeGestureDetected += HandleAffirmativeGesture;
-WearableControl.Instance.NegativeGestureDetected += HandleNegativeGesture;
-WearableControl.Instance.InputGestureDetected += HandleInputGesture;
-</code></pre>
+    <pre><code class="language-cs">
+    if(Active && Transitioning) {
+      TransitionIn();
+    } else if(!Active && Transitioning) {
+      TransitionOut();
+    }
+    </code></pre>
 
-<p>The <em>HandleAffirmativeGesture()</em> gesture handles instances of head nods. It begins by checking if the system is actually waiting for a head nod or shake.</p>
+    <h4>On Enter</h4>
 
-<pre><code class="language-cs">
-if(WaitingForNodOrShake){
-  ...
-}
-</code></pre>
+    <p>In each painting, the <em>Enter()</em> method performs some common tasks when the visitor crosses the threshold and 'enters' a painting.</p>
 
-<p>Within that conditional block the action taken depends upon what the current clip is. This is handled with a <em>switch</em> block.</p>
+    <p>The properties tracking the current state of the painting are updated.</p>
 
-<pre><code class="language-cs">
-switch(currentCommentaryClip){
-  case CommentaryClip.MoreArtist:
-    currentCommentaryClip = CommentaryClip.Artist;
-    PlayClip(currentLocation.ToString() + CommentaryClip.Artist.ToString());
-    break;
-  case CommentaryClip.MorePainting:
-    currentCommentaryClip = CommentaryClip.Painting;
-    PlayClip(currentLocation.ToString() + CommentaryClip.Painting.ToString());
-    break;
-  case CommentaryClip.MoreMusic:
-    currentCommentaryClip = CommentaryClip.Music;
-    PlayClip(currentLocation.ToString() + CommentaryClip.Music.ToString());
-    break;
-}
-</code></pre>
+    <pre><code class="language-cs">
+    Active = true;
+    Transitioning = true;
+    </code></pre>
 
-<p>The handling of negative gestures with <em>HandleNegativeGesture()</em> is similar, except that as well as being used as a direct response to a question, a head shake can be used to exit out of the current commentary, in which case the system moves on to the next section.</p>
+    <p>The current time is logged in order to trigger the commentary after a short delay.</p>
 
-<p>The input gesture, a tap on hold on the face of the right-hand headphone cup, is used turn the commentary on and off. This is handled by the <em>HandleInputGesture()</em> method. The mechanism for turning the commentary on and off is introduced the first time the visitor enters a painting, at which point they are presented with the instruction to test the gesture. <em>HandleInputGesture()</em> therefore handles the case of an input gesture when the system is waiting for this test case and handles this separately to the use of the gesture at any other time.</p>
+    <pre><code class="language-cs">
+    timeStarted = DateTime.Now;
+    </code></pre>
 
-<p>In addition, the first time the visitor turns the commentary off, they are given a vocal confirmation as well as an instruction on how to turn the commentary back on.</p>
+    <p>The <em>CommentaryController</em> has this painting's audio guide object set as its sound location. The <em>CommentaryController</em> contains a property that stores the current location in order to play the correct audio files. This property is updated to the current painting - in this case, the Battle of Bosworth Field.</p>
 
-<pre><code class="language-cs">
-if(!PaintingIntroPlayed && WaitingForCommentaryOffTest){
-  PaintingIntroPlayed = true;
-  WaitingForCommentaryOffTest = false;
-  currentCommentaryClip = CommentaryClip.CommentaryOffTest;
-  PlayClip(CommentaryClip.CommentaryOffTest.ToString());
-} else if(CommentaryOn){
-  CommentaryOn = false;
-  if(!CommentaryTurnedOffYet){
-    CommentaryTurnedOffYet = true;
-    currentCommentaryClip = CommentaryClip.CommentaryOffFirstTime;
-    PlayClip(CommentaryClip.CommentaryOffFirstTime.ToString());
-  } else {
-    currentCommentaryClip = CommentaryClip.CommentaryOff;
-    PlayClip(CommentaryClip.CommentaryOff.ToString());
-  }
-} else if(!CommentaryOn) {
-  CommentaryOn = true;
-  currentCommentaryClip = CommentaryClip.CommentaryOn;
-  PlayClip(CommentaryClip.CommentaryOn.ToString());
-}
-</code></pre>
+    <pre><code class="language-cs">
+    commentaryController.SetAudioGuide(AudioGuide);
+    commentaryController.SetCurrentLocation(CommentaryController.Location.Bosworth);
+    </code></pre>
 
-<h4>Commentary Clip Playback</h4>
+    <h4>On Exit</h4>
 
-<p>The playing of the commentary itself is handled by the <em>PlayClip()</em> method. Firstly, if a commentary clip is currently playing it is stopped.</p>
+    <p>The <em>Exit()</em> method is run when the visitor leaves the painting. All that is required here is to update the current state.</p>
 
-<pre><code class="language-cs">
-if(CommentaryTalking){
-  commentaryClipInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-}
-</code></pre>
+    <pre><code class="language-cs">
+    Transitioning = true;
+    Active = false;
+    </code></pre>
 
-<p>The <em>commentaryClipInstance</em> property is then assigned a new FMOD event based on the commentary clip name passed in.</p>
+    <h4>Starting the Commentary</h4>
 
-<pre><code class="language-cs">
-commentaryClipInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Commentary/" + commentaryClip);
-</code></pre>
+    <p>The final piece of code common to all paintings is that which starts the commentary playing. This is done in the <em>TransitionIn()</em> method, run every frame whilst the painting is transitioning in.</p>
 
-<p>Before going on to play the commentary clip, we check that there is a currently assigned audio guide object to which to attach it.</p>
+    <p>The code compares the time logged at the beginning of the transition with the current time and begins the commentary if the duration threshold has been crossed. In this case, after five seconds.</p>
 
-<pre><code class="language-cs">
-  if(audioGuide){
-    ...
-  }
-</code></pre>
+    <pre><code class="language-cs">
+    if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5))){
+      commentaryController.StartCommentary();
+    }
+    </code></pre>
 
-<p>Within this conditional block, we use an FMOD parameter to duck the level of all non-commentary events currently playing.</p>
+    <h3>The Visitor</h3>
 
-<pre><code class="language-cs">
-  FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DuckMusic", 40);
-</code></pre>
+    <p>The visitor to the space is represented by the <em>Visitor</em> object, contained within the <em>IndoorAtlas Session</em> object which utilises the IndoorAtlas indoor positioning API.</p>
 
-<p>Finally, we attach the FMOD event instance to the audio guide object and play it.</p>
+    <p>The script attached to the Visitor game object deals with just two things: initiating gallery-level commentary and moving the visitor avatar within the game environment. The latter is achieved through either the use of keyboard and mouse input when in the editor environment, or by translating positioning data from the <em>IndoorAtlas Session</em> object that contains it when being run as a deployed application.</p>
 
-<pre><code class="language-cs">
-  FMODUnity.RuntimeManager.AttachInstanceToGameObject(commentaryClipInstance, audioGuide.GetComponent&lt;Transform&gt;(), audioGuide.GetComponent&lt;Rigidbody&gt;());
-  CommentaryTalking = true;
-  commentaryClipInstance.start();
-</code></pre>
+    <p>There is a single item of gallery-level commentary - the gallery introduction. This is initiated after a short delay in the same way as for the painting-specific commentary.</p>
 
-<p>This all happens after we've determined which clip to play. This decision is handled through several methods. <em>StartCommentary()</em> is called by the visitor object or a painting object in order to initiate the audio commentary. This method checks a number of aspects of state in order to select the correct clip to start with. This will either be the gallery introduction clip, the general introduction to paintings that includes some instructions on first entering a painting, or a painting-specific introduction to be used when the visitor has already been played the general introduction.</p>
+    <pre><code class="language-cs">
+    if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5)) && !commentaryController.GalleryIntroPlayed){
+      commentaryController.StartCommentary();
+    }
+    </code></pre>
 
-<p>The <em>OnCommentaryComplete()</em> method is called whenever a clip has finished and used to progress onto the next audio clip if appropriate. For example, once the painting specific introduction has finished the commentary goes on to ask if the visitor would like to hear more about the artist.</p>
-</div>
+    <p>As with the paintings, the visitor contains an AudioGuide game object which is passed to the <em>CommentaryController</em> to be used as the origin for gallery-level commentary.</p>
+
+    <h3>Commentary Controller</h3>
+
+    <p>The <em>CommentaryController</em> object controls the playback of all commentary in the system. It contains two enums that contain a list of commentary clips and locations. Each painting has the same set of clips, with the FMOD event names identical but prepended by the name of the location as set in the locations enum property.</p>
+
+    <p>For example, the FMOD event with more information on the music created for the Battle of Bosworth painting is called <em>BosworthMoreMusic</em>.</p>
+
+    <pre><code class="language-cs">
+    private enum CommentaryClip {
+      GalleryIntroduction,
+      PaintingIntroduction,
+      CommentaryOffTest,
+      CommentaryOffFirstTime,
+      CommentaryOff,
+      CommentaryOn,
+      FirstNod,
+      NodOrShake,
+      Intro,
+      MoreArtist,
+      Artist,
+      MorePainting,
+      Painting,
+      MoreMusic,
+      Music
+    }
+
+    public enum Location {
+      Gallery,
+      Yellowstone,
+      Bosworth,
+      Mary,
+      TheGirl,
+      Wollaston,
+      RailwayStation
+    }
+    </code></pre>
+
+    <p>Both the current location and commentary clip are stored.</p>
+
+    <pre><code class="language-cs">
+    private Location currentLocation;
+    private CommentaryClip currentCommentaryClip;
+    </code></pre>
+
+    <p>The <em>CommentaryController</em> also has a single FMOD event object into which the appropriate FMOD event is loaded.</p>
+
+    <pre><code class="language-cs">
+    private CommentaryClip currentCommentaryClip;
+    </code></pre>
+
+    <p>Finally, the <em>CommentaryController</em> also keeps track of various aspects of state, including whether the commentary is currently playing.</p>
+
+    <pre><code class="language-cs">
+    private bool CommentaryTalking = false;
+    private bool WaitingForCommentaryOffTest = false;
+    private bool WaitingForNodOrShake = false;
+    </code></pre>
+
+    <h4>On Update</h4>
+
+    <p>The <em>Update()</em> method in <em>CommentaryController</em> is used to check if a playing clip has stopped. This then triggers the logic that either progresses to the next clip or waits for user input.</p>
+
+    <pre><code class="language-cs">
+    if(CommentaryTalking) {
+      if(commentaryClipInstance.isValid()){
+        FMOD.Studio.PLAYBACK_STATE playbackState;
+        commentaryClipInstance.getPlaybackState(out playbackState);
+        if (playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED){
+          CommentaryTalking = false;
+          OnCommentaryComplete();
+        }
+      }
+    }
+    </code></pre>
+
+    <h4>BOSE Gesture Input</h4>
+
+    <p>The <em>CommentaryController</em> registers methods with the BOSE Headphone API to handle affirmative (head nod), negative (head shake), and input (tap and hold on the side of the headphones) gestures.</p>
+
+    <pre><code class="language-cs">
+    WearableControl.Instance.AffirmativeGestureDetected += HandleAffirmativeGesture;
+    WearableControl.Instance.NegativeGestureDetected += HandleNegativeGesture;
+    WearableControl.Instance.InputGestureDetected += HandleInputGesture;
+    </code></pre>
+
+    <p>The <em>HandleAffirmativeGesture()</em> gesture handles instances of head nods. It begins by checking if the system is actually waiting for a head nod or shake.</p>
+
+    <pre><code class="language-cs">
+    if(WaitingForNodOrShake){
+      ...
+    }
+    </code></pre>
+
+    <p>Within that conditional block the action taken depends upon what the current clip is. This is handled with a <em>switch</em> block.</p>
+
+    <pre><code class="language-cs">
+    switch(currentCommentaryClip){
+      case CommentaryClip.MoreArtist:
+        currentCommentaryClip = CommentaryClip.Artist;
+        PlayClip(currentLocation.ToString() + CommentaryClip.Artist.ToString());
+        break;
+      case CommentaryClip.MorePainting:
+        currentCommentaryClip = CommentaryClip.Painting;
+        PlayClip(currentLocation.ToString() + CommentaryClip.Painting.ToString());
+        break;
+      case CommentaryClip.MoreMusic:
+        currentCommentaryClip = CommentaryClip.Music;
+        PlayClip(currentLocation.ToString() + CommentaryClip.Music.ToString());
+        break;
+    }
+    </code></pre>
+
+    <p>The handling of negative gestures with <em>HandleNegativeGesture()</em> is similar, except that as well as being used as a direct response to a question, a head shake can be used to exit out of the current commentary, in which case the system moves on to the next section.</p>
+
+    <p>The input gesture, a tap on hold on the face of the right-hand headphone cup, is used turn the commentary on and off. This is handled by the <em>HandleInputGesture()</em> method. The mechanism for turning the commentary on and off is introduced the first time the visitor enters a painting, at which point they are presented with the instruction to test the gesture. <em>HandleInputGesture()</em> therefore handles the case of an input gesture when the system is waiting for this test case and handles this separately to the use of the gesture at any other time.</p>
+
+    <p>In addition, the first time the visitor turns the commentary off, they are given a vocal confirmation as well as an instruction on how to turn the commentary back on.</p>
+
+    <pre><code class="language-cs">
+    if(!PaintingIntroPlayed && WaitingForCommentaryOffTest){
+      PaintingIntroPlayed = true;
+      WaitingForCommentaryOffTest = false;
+      currentCommentaryClip = CommentaryClip.CommentaryOffTest;
+      PlayClip(CommentaryClip.CommentaryOffTest.ToString());
+    } else if(CommentaryOn){
+      CommentaryOn = false;
+      if(!CommentaryTurnedOffYet){
+        CommentaryTurnedOffYet = true;
+        currentCommentaryClip = CommentaryClip.CommentaryOffFirstTime;
+        PlayClip(CommentaryClip.CommentaryOffFirstTime.ToString());
+      } else {
+        currentCommentaryClip = CommentaryClip.CommentaryOff;
+        PlayClip(CommentaryClip.CommentaryOff.ToString());
+      }
+    } else if(!CommentaryOn) {
+      CommentaryOn = true;
+      currentCommentaryClip = CommentaryClip.CommentaryOn;
+      PlayClip(CommentaryClip.CommentaryOn.ToString());
+    }
+    </code></pre>
+
+    <h4>Commentary Clip Playback</h4>
+
+    <p>The playing of the commentary itself is handled by the <em>PlayClip()</em> method. Firstly, if a commentary clip is currently playing it is stopped.</p>
+
+    <pre><code class="language-cs">
+    if(CommentaryTalking){
+      commentaryClipInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+    </code></pre>
+
+    <p>The <em>commentaryClipInstance</em> property is then assigned a new FMOD event based on the commentary clip name passed in.</p>
+
+    <pre><code class="language-cs">
+    commentaryClipInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Commentary/" + commentaryClip);
+    </code></pre>
+
+    <p>Before going on to play the commentary clip, we check that there is a currently assigned audio guide object to which to attach it.</p>
+
+    <pre><code class="language-cs">
+      if(audioGuide){
+        ...
+      }
+    </code></pre>
+
+    <p>Within this conditional block, we use an FMOD parameter to duck the level of all non-commentary events currently playing.</p>
+
+    <pre><code class="language-cs">
+      FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DuckMusic", 40);
+    </code></pre>
+
+    <p>Finally, we attach the FMOD event instance to the audio guide object and play it.</p>
+
+    <pre><code class="language-cs">
+      FMODUnity.RuntimeManager.AttachInstanceToGameObject(commentaryClipInstance, audioGuide.GetComponent&lt;Transform&gt;(), audioGuide.GetComponent&lt;Rigidbody&gt;());
+      CommentaryTalking = true;
+      commentaryClipInstance.start();
+    </code></pre>
+
+    <p>This all happens after we've determined which clip to play. This decision is handled through several methods. <em>StartCommentary()</em> is called by the visitor object or a painting object in order to initiate the audio commentary. This method checks a number of aspects of state in order to select the correct clip to start with. This will either be the gallery introduction clip, the general introduction to paintings that includes some instructions on first entering a painting, or a painting-specific introduction to be used when the visitor has already been played the general introduction.</p>
+
+    <p>The <em>OnCommentaryComplete()</em> method is called whenever a clip has finished and used to progress onto the next audio clip if appropriate. For example, once the painting specific introduction has finished the commentary goes on to ask if the visitor would like to hear more about the artist.</p>
+  </div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6

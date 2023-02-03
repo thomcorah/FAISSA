@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['indooratlasonenterregion_0',['IndoorAtlasOnEnterRegion',['../class_visitor.html#a932263d21097ac95b013c88c99c3cd95',1,'Visitor']]],
-  ['indooratlasonexitregion_1',['IndoorAtlasOnExitRegion',['../class_visitor.html#ac73a411b403c84294bb85ba0219935fa',1,'Visitor']]],
-  ['indooratlasonheadingchanged_2',['IndoorAtlasOnHeadingChanged',['../class_visitor.html#acf503098cc75029a0b5303719d67b69a',1,'Visitor']]],
-  ['indooratlasonlocationchanged_3',['IndoorAtlasOnLocationChanged',['../class_visitor.html#abcf271cbad29451b893ca1c1af56a80d',1,'Visitor']]],
-  ['indooratlasonorientationchanged_4',['IndoorAtlasOnOrientationChanged',['../class_visitor.html#a4b4acc25d6fd6f9fc60ba9c72e230c9d',1,'Visitor']]],
-  ['indooratlasonroute_5',['IndoorAtlasOnRoute',['../class_visitor.html#a31f02635a6cbd42aca93a855fb146b5f',1,'Visitor']]],
-  ['indooratlasonstatuschanged_6',['IndoorAtlasOnStatusChanged',['../class_visitor.html#af62442d441c633ff3fa833b5995d57c8',1,'Visitor']]]
+  ['oncommentarycomplete_0',['OnCommentaryComplete',['../class_commentary_controller.html#af2dac5d98ef6f772e561b39dcab82a56',1,'CommentaryController']]],
+  ['ondisable_1',['OnDisable',['../class_commentary_controller.html#aad35b5a32c7ceb835120201acf50140f',1,'CommentaryController']]],
+  ['onenable_2',['OnEnable',['../class_commentary_controller.html#acec4abfa18c0d5c2557f896ebd1852dc',1,'CommentaryController']]],
+  ['onenter_3',['onEnter',['../class_railway_sounds.html#a7c0e8f88956833596160c4a098809174',1,'RailwaySounds.onEnter()'],['../class_wollaston_people.html#ae42f3f70e649379075dd36f94b328464',1,'WollastonPeople.onEnter()']]],
+  ['onexit_4',['onExit',['../class_railway_sounds.html#a090e45053ff9a305e2cc9a12dcbe75dc',1,'RailwaySounds.onExit()'],['../class_wollaston_people.html#a3df341366aff9045d045cf9333bafc3e',1,'WollastonPeople.onExit()']]],
+  ['ongui_5',['OnGUI',['../class_visitor.html#a436b2bc16379ec69cfb895bc38517a35',1,'Visitor']]]
 ];
