@@ -1886,8 +1886,8 @@ MonoBehaviour:
   _onGestureDetected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 453579609}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 992525439}
+        m_TargetAssemblyTypeName: CommentaryController, Assembly-CSharp
         m_MethodName: HandleAffirmativeGesture
         m_Mode: 1
         m_Arguments:
@@ -1914,8 +1914,8 @@ MonoBehaviour:
   _onGestureDetected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 453579609}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 992525439}
+        m_TargetAssemblyTypeName: CommentaryController, Assembly-CSharp
         m_MethodName: HandleInputGesture
         m_Mode: 1
         m_Arguments:
@@ -1942,8 +1942,8 @@ MonoBehaviour:
   _onGestureDetected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 453579609}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 992525439}
+        m_TargetAssemblyTypeName: CommentaryController, Assembly-CSharp
         m_MethodName: HandleNegativeGesture
         m_Mode: 1
         m_Arguments:
@@ -3235,17 +3235,17 @@ PrefabInstance:
     - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
         type: 3}
       propertyPath: _debugProvider._productId
-      value: 16420
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
         type: 3}
       propertyPath: _debugProvider._variantId
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
         type: 3}
       propertyPath: _debugProvider._simulatedMovementMode
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7116553554443792599, guid: 969d5fcfab8fe45b0be33c6a4a7c11a4,
         type: 3}
