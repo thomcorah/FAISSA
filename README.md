@@ -1,4 +1,4 @@
-# SAARPS: System for Audio Augmented Reality in Public Spaces
+# FAISSA: Framework for Augmenting Indoor Spaces with Spatial Audio
 
 This repository contains the practical aspects of my PhD work - the creation of a system for the production and delivery of an artistic audio augmented reality system for use in public spaces such as galleries.
 
@@ -13,7 +13,7 @@ Contains the full FMOD audio session from which to build the sound bank for Unit
 The Unity game environment used to create the virtual sound world for the augmented reality experience.
 
 **Documentation**
-Full documentation of the code written for the Unity session. A brief summary of the main points follows below.
+Full documentation of the code written for the Unity session. A brief summary of the main points follows below. To view the full documentation rendered as a website, visit <https://thomcorah.github.io/FAISSA/Documentation/>
 
 ## Installation
 
@@ -39,11 +39,11 @@ This should be sufficient to run in the editor. When running in the editor, the 
 
 ### On an iOS device (not on location)
 
-SAARPS can be run on a device from a location that is NOT the Victorian Gallery. In this case, it will use the orientation data from the Bose headphones, but not the location data from Indoor Atlas. In order to build to an iOS device you will need a paid-for Apple Developer Account, and will need to create a provisioning profile for this project that includes your iOS device. Refer to the Apple Developer documentation for this.
+FAISSA can be run on a device from a location that is NOT the Victorian Gallery. In this case, it will use the orientation data from the Bose headphones, but not the location data from Indoor Atlas. In order to build to an iOS device you will need a paid-for Apple Developer Account, and will need to create a provisioning profile for this project that includes your iOS device. Refer to the Apple Developer documentation for this.
 
 On the Visitor GameObject, turn the RotationMatcher component on.
 
-In Visitor.cs, there is a method provided by the Indoor Atlas SDK (IndoorAtlasOnLocationChanged(IndoorAtlas.Location location)) that is used to manage the indoor location information provided. This method takes this input from Indoor Atlas and translates it into the Unity world coordinate system. If you are not on location, ensure the contents of this method remain commented out.
+In Visitor.cs, there is a method provided by the Indoor Atlas SDK (IndoorAtlasOnLocationChanged(IndoorAtlas.Location location)) that is used to manage the indoor location information provided. This method takes input from Indoor Atlas and translates it into the Unity world coordinate system. If you are not on location, ensure the contents of this method remain commented out.
 
 Now Build the Unity Project. File -> Build Settings. Ensure Middleground is the selected scene and iOS is selected, then click Build and Run.
 
@@ -272,7 +272,7 @@ if(CommentaryTalking) {
 }
 ```
 
-#### BOSE Gesture Input
+#### Bose Gesture Input
 
 The _CommentaryController_ registers methods with the BOSE Headphone API to handle affirmative (head nod), negative (head shake), and input (tap and hold on the side of the headphones) gestures.
 
