@@ -359,7 +359,7 @@
 			<value>5</value>
 		</property>
 		<property name="value">
-			<value>-25</value>
+			<value>-15</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{12581073-2fc0-4c23-9174-a087dd9e667e}">

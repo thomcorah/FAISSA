@@ -330,7 +330,7 @@
 			<value>0.98870056497175141</value>
 		</property>
 		<property name="value">
-			<value>6</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{83cc76b6-f34f-4bef-9cea-e1d3d4152edb}">
@@ -362,7 +362,7 @@
 			<value>5</value>
 		</property>
 		<property name="value">
-			<value>-36</value>
+			<value>-18</value>
 		</property>
 		<property name="curveShape">
 			<value>0.169216886</value>

@@ -251,6 +251,8 @@ public class Wollaston : MonoBehaviour
       FMODUnity.RuntimeManager.StudioSystem.setParameterByName("WollastonElizabeth", 0);
       FMODUnity.RuntimeManager.StudioSystem.setParameterByName("WollastonFrancis", 0);
 
+      FMODUnity.RuntimeManager.StudioSystem.setParameterByName("WollastonOngoing", 0);
+
       FMODUnity.RuntimeManager.StudioSystem.setParameterByName("WollastonAllSounds", 0);
 
       WollastonPeople.onExit();

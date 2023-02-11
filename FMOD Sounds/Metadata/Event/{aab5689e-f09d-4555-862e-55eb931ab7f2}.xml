@@ -354,7 +354,7 @@
 			<value>100</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{dbcc169a-b5c6-4ff4-949c-56e815c75d76}">
@@ -362,7 +362,7 @@
 			<value>5</value>
 		</property>
 		<property name="value">
-			<value>-25</value>
+			<value>-15</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{4b8ba67f-833c-4e75-8eea-3d3a4204a57f}">

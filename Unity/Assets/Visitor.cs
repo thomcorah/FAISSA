@@ -126,7 +126,7 @@ public class Visitor : MonoBehaviour
         commentaryController.SetAudioGuide(audioGuide);
         commentaryController.SetCurrentLocation(CommentaryController.Location.Gallery);
 
-        debugMsg = "DEBUG";
+        debugMsg = "";
         style.fontSize = 60;
     }
 

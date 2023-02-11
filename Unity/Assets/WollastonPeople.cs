@@ -227,7 +227,7 @@ public class WollastonPeople : MonoBehaviour
             dotProduct = 0.0f;
           }
 
-          int scaler = (int)(dotProduct * 95.0f + 0.5f);
+          int scaler = (int)(dotProduct * 95.0f + 5f);
           FMODUnity.RuntimeManager.StudioSystem.setParameterByName(FMODParameters[i], scaler);
         }
       }
