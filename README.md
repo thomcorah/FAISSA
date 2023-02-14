@@ -17,13 +17,15 @@ Full documentation of the code written for the Unity session. A brief summary of
 
 ## Installation
 
+Although the full codebase is provided here, the Unity and FMOD project can be downloaded independently from here: <https://drive.google.com/drive/folders/1cqnam2iXdZO05qx_i22UJ_M4s4_-Im2T?usp=share_link>
+
 Open the FMOD session in FMOD Studio v2.01.08 or later and build for desktop. FMOD Studio is free and can be downloaded from <https://fmod.com>
 
-Open the Unity session. It has been authored with Unity v2020.03.3f1. Unity can be downloaded from <https://unity.com>
+Open the Unity session. To do so, open the Unity Hub Application, click the Open button, and navigate to the Unity folder containing the project. It has been authored with Unity v2020.03.3f1. Unity can be downloaded from <https://unity.com>
 
-Install the FMOD Unity integration to connect FMOD and Unity. Full details are available here: <https://www.fmod.com/unity>. Ensure that the built FMOD sound bank has been selected in Unity via FMOD -> Edit Settings -> Studio Project Path
+Unity requires the FMOD Unity integration to connect to FMOD. If you open the Unity session and see an FMOD menu along the top menu bar, it is already installed. If not, it will need to be installed. Full details are available here: <https://www.fmod.com/unity>. Ensure that the built FMOD sound bank has been selected in Unity via FMOD -> Edit Settings -> Studio Project Path. The Unity project is set up to assume that the FMOD Sounds folder will be in the same location as the Unity folder. 
 
-This system makes use of Resonance Audio for the spatialisation of sound sources in FMOD. This requires the installation of the Resonance Audio Plugin in Unity. Full instructions are here: <https://resonance-audio.github.io/resonance-audio/develop/fmod/game-engine-integration>
+This system makes use of Resonance Audio for the spatialisation of sound sources in FMOD. This requires the installation of the Resonance Audio Plugin in Unity. If needed, full instructions are here: <https://resonance-audio.github.io/resonance-audio/develop/fmod/game-engine-integration>
 
 If you plan to build from Unity to iOS, pay particular attention to the section titled: Deploying the plugins on iOS using Unity. In addition to what is described here, you will need to add resonance audio as a plugin for FMOD within Unity. In Unity, go to FMOD -> Edit Settings and scroll down to Dynamic Plugins. Click the Add Plugin button, and enter "resonanceaudio" in the text box, without quote marks. 
 
