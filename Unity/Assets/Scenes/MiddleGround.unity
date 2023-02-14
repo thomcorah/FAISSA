@@ -5231,8 +5231,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wearableControl: {fileID: 184700630}
-  GalleryIntroPlayed: 1
-  PaintingIntroPlayed: 1
+  GalleryIntroPlayed: 0
+  PaintingIntroPlayed: 0
   CommentaryOn: 0
 --- !u!4 &992525440
 Transform:
